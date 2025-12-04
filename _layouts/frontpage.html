@@ -8,13 +8,13 @@ format: frontpage
         <div class="small-12 columns header-home-inner">
 
             {%- comment -%}
-            Automatically gather all files in /images/headers/
+                Automatically gather all files in /images/headers/
             {%- endcomment -%}
             {%- assign header_images = site.static_files | where_exp: "img", "img.path contains '/images/headers/'" -%}
 
             {%- if header_images.size > 0 -%}
-            {%- assign header_image = header_images | sample -%}
-            <img class="header-home-image" src="{{ header_image.path }}" alt="{{ page.title | default: site.title }}">
+                {%- assign header_image = header_images | sample -%}
+                <img class="header-home-image" src="{{ header_image.path }}" alt="{{ page.title | default: site.title }}">
             {%- endif -%}
 
         </div>
@@ -27,18 +27,30 @@ format: frontpage
 {% assign highlights = site.data.highlights %}
 
 <div class="row t60">
-  {% if highlights.left and (highlights.left.title or highlights.left.image or highlights.left.video) %}
-    {% include _frontpage-highlight.html highlight=highlights.left %}
-  {% endif %}
 
-  {% if highlights.center and (highlights.center.title or highlights.center.image or highlights.center.video) %}
-    {% include _frontpage-highlight.html highlight=highlights.center %}
-  {% endif %}
+  {%- if highlights.left -%}
+    {%- assign hl = highlights.left -%}
+    {%- if hl.title or hl.image or hl.video -%}
+      {% include _frontpage-highlight.html highlight=hl %}
+    {%- endif -%}
+  {%- endif -%}
 
-  {% if highlights.right and (highlights.right.title or highlights.right.image or highlights.right.video) %}
-    {% include _frontpage-highlight.html highlight=highlights.right %}
-  {% endif %}
+  {%- if highlights.center -%}
+    {%- assign hc = highlights.center -%}
+    {%- if hc.title or hc.image or hc.video -%}
+      {% include _frontpage-highlight.html highlight=hc %}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if highlights.right -%}
+    {%- assign hr = highlights.right -%}
+    {%- if hr.title or hr.image or hr.video -%}
+      {% include _frontpage-highlight.html highlight=hr %}
+    {%- endif -%}
+  {%- endif -%}
+
 </div><!-- /.Highlights -->
+
 
 
 
