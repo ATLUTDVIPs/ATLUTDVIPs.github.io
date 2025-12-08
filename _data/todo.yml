@@ -93,7 +93,7 @@ todo:
     items:
       - item: "Timeline view"
         statuses: ""
-        notes: ""
+        notes: "Back to design phase"
 
   - category: "Funding"
     items:
@@ -120,7 +120,7 @@ todo:
     items:
       - item: "About page"
         statuses: "design"
-        notes: ""
+        notes: "completed"
 
   - category: "Articles / Blog"
     items:
