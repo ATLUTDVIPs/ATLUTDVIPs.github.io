@@ -87,7 +87,7 @@ Continued browsing indicates acceptance of any updates.
 ### Contact Us
 
 If you would like to request a correction or removal of information, please contact us here:  
-👉 [ATLUTD VIPs Contact](http://192.168.86.33:4000/authors/atlutd-vips/)
+👉 [ATLUTD VIPs Contact](/authors/atlutd-vips/)
 
 
 _Last updated on {{ page.modified_time | default: page.Last_Updated | date: "%B %d, %Y" }}_
