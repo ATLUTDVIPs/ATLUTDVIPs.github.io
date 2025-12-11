@@ -29,13 +29,6 @@ $body-bg            : #fdfdfd;
    https://color.adobe.com/de/Flat-Design-Colors-v2-color-theme-4341903/
 ------------------------------------------------------------------- */
 
-//$ci-1               : #334D5C; // dark turquoise
-//$ci-2               : #45B29D; // turquoise
-//$ci-3               : #EFC94C; // yellow
-//$ci-4               : #E27A3F; // orange
-//$ci-5               : #DF4949; // red
-//$ci-6               : #A1D044; // green
-
 /* ATLUTD VIP style palette
 ------------------------------------------------------------------- */
 $ci-1 : #221F1F; // primary
@@ -45,24 +38,18 @@ $ci-4 : #9D2235; // deep background / text
 $ci-5 : #80000A; // alerts
 $ci-6 : #A19060; // success/hover
 
-$primary-color : $ci-1; // dark red
-$secondary-color : $ci-2; // gold
-$alert-color : $ci-5;
+$Quote_Block : #a50034; // Highlight Quotes
+
+$white: #ffffff;
+$black: #000000;
+
+$primary-color :   $ci-1; 
+$secondary-color : $ci-2;
+$alert-color :     $ci-5;
+
 $success-color : $ci-6;
 $warning-color : $ci-3;
-$info-color : $ci-2;
-
-
-/* Foundation Color Variables
-------------------------------------------------------------------- */
-
-//$primary-color      : $ci-1;
-//$secondary-color    : $ci-6;
-//$alert-color        : $ci-5;
-//$success-color      : $ci-6;
-//$warning-color      : $ci-4;
-//$info-color         : $ci-1;
-
+$info-color :    $ci-2;
 
 
 /* Grey Scale
@@ -90,82 +77,43 @@ $grey-16            : #0B0B0B;
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-//$topbar-bg-color    : $body-bg;
-//$topbar-bg          : $topbar-bg-color;
-
-
-//$topbar-dropdown-toggle-color: $ci-1;
-
-//$topbar-link-color  : #000;
-//$topbar-link-color-hover: #000;
-//$topbar-link-color-active: #000;
-//$topbar-link-color-active-hover: #000;
-
-//$topbar-dropdown-label-color: $ci-2;
-//$topbar-dropdown-link-bg-hover: $ci-6;
-
-//$topbar-link-bg-active: $ci-6; // Active Navigation Link
-//$topbar-link-bg-hover: $ci-6;
-//$topbar-link-bg-active-hover: $ci-2;
-
-
-//$topbar-dropdown-bg: $ci-6; // Background Mobile Navigation
-//$topbar-dropdown-link-color: #000;
-//$topbar-dropdown-link-bg: $ci-2;
-
-//$topbar-menu-link-color-toggled: $ci-1;
-//$topbar-menu-icon-color-toggled: $ci-1;
-//$topbar-menu-link-color: #000;
-//$topbar-menu-icon-color: #000;
-//$topbar-menu-link-color-toggled: $ci-6;
-//$topbar-menu-icon-color-toggled: $ci-6;
-
 /* Topbar-Navigation – ATLUTD VIPs style */
-$topbar-bg-color : #221F1F; // BLACK bar
+$topbar-bg-color : $ci-1; 
 $topbar-bg : $topbar-bg-color;
 
-$topbar-dropdown-toggle-color: $ci-2; // gold icon
+$topbar-dropdown-toggle-color: $ci-2;
 
-$topbar-link-color : #ffffff;
-$topbar-link-color-hover : $ci-2; // gold on hover
-$topbar-link-color-active : $ci-2;
-$topbar-link-color-active-hover : #ffffff;
+$topbar-link-color :              $white;
+$topbar-link-color-hover :        $ci-2;
+$topbar-link-color-active :       $ci-2;
+$topbar-link-color-active-hover : $white;
 
 $topbar-dropdown-label-color : $ci-2;
 
-$topbar-dropdown-link-bg-hover : $ci-3; // darker gold
+$topbar-dropdown-link-bg-hover : $ci-3;
 $topbar-link-bg-active : transparent;
 $topbar-link-bg-hover : transparent;
 $topbar-link-bg-active-hover : transparent;
 
-$topbar-dropdown-bg : #221F1F; // dark dropdown
-$topbar-dropdown-link-color : #ffffff;
+$topbar-dropdown-bg : $ci-1;
+$topbar-dropdown-link-color : $white;
 $topbar-dropdown-link-bg : transparent;
 
-$topbar-menu-link-color : #ffffff;
-$topbar-menu-icon-color : #ffffff;
-$topbar-menu-link-color-toggled : $ci-2; // gold
+$topbar-menu-link-color :         $white;
+$topbar-menu-icon-color :         $white;
+$topbar-menu-link-color-toggled : $ci-2;
 $topbar-menu-icon-color-toggled : $ci-2;
 
 /* Footer
 ------------------------------------------------------------------- */
 
-//$footer-bg          : $grey-8;
-//$footer-color       : #fff;
-//$footer-link-color  : $ci-6;
-
 $footer-bg         : #817144;  // background bar
-$footer-color      : #ffffff;  // Text
-$footer-link-color : #ffffff;  // Links
+$footer-color      : $white;  // Text
+$footer-link-color : $white;  // Links
 
-
-//$subfooter-bg       : $grey-13;
-//$subfooter-color    : $grey-8;
-//$subfooter-link-color: $grey-8;
-
-$subfooter-bg        : #A19060; // background bar
-$subfooter-color     : #ffffff; // Text
-$subfooter-link-color: #ffffff;   // Links
+$subfooter-bg        : $ci-6;  // background bar
+$subfooter-color     : $white; // Text
+$subfooter-link-color: $white; // Links
 
 /* Code
 ------------------------------------------------------------------- */
