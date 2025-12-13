@@ -440,7 +440,7 @@ events:
 
 
   - date: 2018-11-04
-    category: Team
+    category: Game
     title: "1st Playoff Win"
     subtitle: "Atlanta United wins their first ever playoff game."
     details: ""
@@ -497,7 +497,7 @@ events:
       - "DWQ3JigX4AACkP0.jpg"
 
   - date: 2017-10-26
-    category: Team
+    category: Game
     title: "1st Playoff Game"
     subtitle: "Atlanta United plays their first ever playoff game."
     details: ""
@@ -509,7 +509,7 @@ events:
       - "hdgtmr3lhyyr9jdrw1cn.jpg"
 
   - date: 2017-09-10
-    category: Team
+    category: Game
     title: "1st Game at Mercedes-Benz"
     subtitle: "ATLUTD vs FC Dallas"
     details: ""
@@ -527,7 +527,7 @@ events:
       - "20170910_atlutd_dallas_kh-183-copy.jpg"
 
   - date: 2017-06-14
-    category: Team
+    category: Game
     title: "1st Game in the US Open Cup"
     subtitle: "ATLUTD vs Charleston Battery"
     details: ""
@@ -562,7 +562,7 @@ events:
       - "C9KwRwiXkAASJVb.jpg"
 
   - date: 2017-04-11
-    category: Team
+    category: Game
     title: "1st Home Win"
     subtitle: "Atlanta United wins their first home game vs Chicago Fire."
     details: ""
@@ -579,7 +579,7 @@ events:
       - "mihgu85nl1by5pypngv8-2023-03-14_15240421.jpg"
 
   - date: 2017-03-12
-    category: Team
+    category: Game
     title: "Snowmageddon"
     subtitle: "Atlanta United plays the epic Snow Game vs Minnesota United in front of 35,043 fans."
     details: "ATLUTD 6, MNUFC 1"
@@ -592,8 +592,8 @@ events:
 
 
   - date: 2017-03-12
-    category: Team
-    title: "1st Ever Win"
+    category: Game
+    title: "1st Win"
     subtitle: "Atlanta United wins its first ever match vs Minnesota United in the epic Snow Game."
     details: "ATLUTD 6, MNUFC 1"
     tags: ["ATLUTD"]
@@ -605,7 +605,7 @@ events:
 
 
   - date: 2017-03-05
-    category: Team
+    category: Game
     title: "Inaugural Match"
     subtitle: "Atlanta United wins its first ever match, at Bobby Dodd vs NYRB"
     details: "ATLUTD 1, NYRB 2, Yamil Asad scores first ever ATLUTD goal."
@@ -637,7 +637,7 @@ events:
       - "qoeyo7nrvmwzpzulilie.jpg"
 
   - date: 2017-02-11
-    category: Team
+    category: Game
     title: "1st Friendly Match"
     subtitle: "Atlanta United plays in its first ever match, vs Chattanooga FC"
     details: ""
