@@ -42,7 +42,7 @@ Bottom_Right:
 
     - text: "Email"
       url:  "mailto:ATLUTD_VIPs@gmail.com"
-      icon: "icons8-email-96.png"
+      icon: "email.png"
       note: ""
 
 
