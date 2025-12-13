@@ -25,8 +25,8 @@ todo:
         statuses: "design"
         notes: ""
       - item: "Timeline"
-        statuses: "design"
-        notes: ""
+        statuses: "completed"
+        notes: "built timeline page, javascripts, initial data load"
       - item: "About"
         statuses: "completed"   # note: your emoji map uses "completed", not "complete"
         notes: "<a href='/about'>About page</a>"
@@ -171,7 +171,7 @@ todo:
         notes: ""
       - item: "Social cards"
         statuses: "priority,research,coding"
-        notes: ""
+        notes: "Works with LinkedIn, BlueSky"
 
   - category: "Highlights"
     items:
@@ -194,8 +194,26 @@ todo:
   - category: "Verification"
     items:
       - item: "BlueSky"
-        statuses: "research"
+        statuses: "completed"
         notes: ""
+
+  - category: "On This Date"
+    items:
+      - item: "Create Hub Page"
+        statuses: "research,coding"
+        notes: ""
+      - item: "Sub page for Games"
+        statuses: "research,coding"
+        notes: "Historic Game"
+      - item: "Sub page for People"
+        statuses: "research,coding"
+        notes: "Birthdays, Anniversaries"
+      - item: "Subpage for Events"
+        statuses: "research,coding"
+        notes: "Significant Events"
+      - item: "Prep 7 days in advance"
+        statuses: "research,coding"
+        notes: "Have 7 days worth of data prepped.  Only display 'today'"
 
 
 completed:
