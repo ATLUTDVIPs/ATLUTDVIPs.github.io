@@ -90,7 +90,10 @@ Bottom_Center:
       url:  "https://icons8.com"
       icon: ""
       note: "icons"
-
+    - text: "flaticon"
+      url:  "https://www.flaticon.com"
+      icon: ""
+      note: "icons"
 
 Bottom_Right:
   title: "Follow"
