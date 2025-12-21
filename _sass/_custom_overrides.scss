@@ -1,4 +1,3 @@
-
 // ###########################################################################
 // ATLUTD VIPs blockquote override 
 // ###########################################################################
@@ -6,22 +5,44 @@
 blockquote {
     font-style: italic;
     position: relative;
-    margin: 1.5rem 0;
+
+    /* spacing */
+    //margin: 1.5rem auto; /* center horizontally */
+    margin: 1.5rem auto 0.75rem;
     padding: 1rem 1.5rem;
+
+    /* visual */
     border-left: 6px solid $Quote_Block;
-    background: rgba(0, 0, 0, 0.03);   /* light dark-on-light wash */
+    background: rgba(0, 0, 0, 0.03);
+    /* light dark-on-light wash */
     color: $grey-11;
+
+    max-width: 85%;
+    /* narrower than content column */
 }
 
 blockquote p {
     font-style: italic;
     color: $grey-10;
+    margin-bottom: 0.75rem;
 }
 
 /* kill the big quote arrows */
 blockquote:before,
 blockquote:after {
     content: none;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    /* remove extra trailing space */
+    font-style: normal;
+    font-size: 0.85rem;
+    color: $grey-9;
+
+    opacity: 0.85;
 }
 
 /* no extra dash before cite */
@@ -354,8 +375,10 @@ hr::after {
     transform: translateX(-50%);
     background: $white;
     padding: 0 0.4em;
-    font-size: 1.2rem; /* Size of ball */
-    line-height: 1;    /* avoid getting squashed */
+    font-size: 1.2rem;
+    /* Size of ball */
+    line-height: 1;
+    /* avoid getting squashed */
 }
 
 // ###########################################################################
@@ -469,10 +492,13 @@ hr::after {
 
 .author-avatar img {
     max-width: 180px;
-    object-fit: cover;   /* crops to center if aspect ratio differs */
-    border-radius: 6px;  /* slight round corners */
+    object-fit: cover;
+    /* crops to center if aspect ratio differs */
+    border-radius: 6px;
+    /* slight round corners */
     display: block;
-    margin: 0 auto 1rem auto; /* centered image */
+    margin: 0 auto 1rem auto;
+    /* centered image */
 }
 
 .author-name {
@@ -564,7 +590,7 @@ hr::after {
 // ###########################################################################
 #header-home {
     background-color: $ci-1;
-    padding: 2rem 0;   // padding: 0;
+    padding: 2rem 0; // padding: 0;
     text-align: center;
 }
 
@@ -576,9 +602,12 @@ hr::after {
 
 /* fixed-height container that crops the banner image */
 #masthead-with-background-color .masthead-banner-frame {
-    max-height: 200px;  /* only show up to 200px */
-    overflow: hidden;   /* hide anything outside the 300px window */
-    position: relative; /* establish positioning context for the image */
+    max-height: 200px;
+    /* only show up to 200px */
+    overflow: hidden;
+    /* hide anything outside the 300px window */
+    position: relative;
+    /* establish positioning context for the image */
     margin: 0 auto;
 }
 
@@ -586,22 +615,30 @@ hr::after {
 /* center it within the container */
 #masthead-with-background-color .masthead-banner {
     width: 100%;
-    max-width: 1600px;  /* optional cap on very large screens */
-    height: auto;       /* keep original aspect ratio */
+    max-width: 1600px;
+    /* optional cap on very large screens */
+    height: auto;
+    /* keep original aspect ratio */
     display: block;
     margin: 0 auto;
-    position: relative; /* establish positioning context for the image */
-    top: 50%;           /* move image’s center into the middle of the frame */
+    position: relative;
+    /* establish positioning context for the image */
+    top: 50%;
+    /* move image’s center into the middle of the frame */
     transform: translateY(-50%);
 }
 
 /* Letterboxed Header Image */
 .header-home-image {
     width: 100%;
-    max-width: 1600px; /* max displayed width */
-    height: 300px;     /* consistent banner height */
-    object-fit: cover; /* crop image to fill area */
-    object-position: center center; /* keep main focus area */
+    max-width: 1600px;
+    /* max displayed width */
+    height: 300px;
+    /* consistent banner height */
+    object-fit: cover;
+    /* crop image to fill area */
+    object-position: center center;
+    /* keep main focus area */
     display: block;
     margin: 0 auto;
 }
@@ -611,6 +648,7 @@ hr::after {
     #masthead-with-background-color .masthead-banner {
         width: 100%;
     }
+
     table {
         width: 100%;
         /* fluid */
@@ -627,13 +665,16 @@ hr::after {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -50%, -50% ); /* raise a bit above exact center */
-    z-index: 2;  /* above the banner image */
+    transform: translate(-50%, -50%);
+    /* raise a bit above exact center */
+    z-index: 2;
+    /* above the banner image */
     display: block;
 }
 
 .masthead-logo {
-    height: 175px;  /* tweak this as you like */
+    height: 175px;
+    /* tweak this as you like */
     width: auto;
     object-fit: contain;
     image-rendering: auto;
@@ -653,7 +694,8 @@ hr::after {
 /* ATLUTD VIPs Table Styling */
 
 table {
-    width: auto;  /* keeps table tight to content */
+    width: auto;
+    /* keeps table tight to content */
     margin: 1.5rem auto;
     border-collapse: collapse;
     background: $white;
@@ -661,7 +703,7 @@ table {
 }
 
 table th {
-    background-color: transparentize( $ci-3, 0.70 );
+    background-color: transparentize($ci-3, 0.70);
     color: $ci-1;
     font-weight: 700;
     padding: 0.5rem 1rem;
@@ -678,11 +720,11 @@ table td {
 
 /* Alternating row striping */
 table tr:nth-child(even) td {
-    background-color: transparentize( $white, 0.99 );
+    background-color: transparentize($white, 0.99);
 }
 
 table tr:nth-child(odd) td {
-    background-color: transparentize( $grey-6, 0.99 );
+    background-color: transparentize($grey-6, 0.99);
 }
 
 // ###########################################################################
@@ -701,8 +743,10 @@ table tr:nth-child(odd) td {
     letter-spacing: 0.08em;
     margin: 0 0 0.5rem 0;
     padding-bottom: 0.25rem;
-    border-bottom: 2px solid $ci-4;  /* standard underline color */
-    color: $body-bg;                 /* standard text color */
+    border-bottom: 2px solid $ci-4;
+    /* standard underline color */
+    color: $body-bg;
+    /* standard text color */
 }
 
 /* List + items */
@@ -800,12 +844,13 @@ table tr:nth-child(odd) td {
 // ###########################################################################
 
 .todo-emoji {
-    position:   relative;
-    display:    inline-block;
-    margin:     0 0.05rem;
-    width:      1.2em;
+    position: relative;
+    display: inline-block;
+    margin: 0 0.05rem;
+    width: 1.2em;
     text-align: center;
-    font-size: 1.2rem;   /* <-- increase emoji size */
+    font-size: 1.2rem;
+    /* <-- increase emoji size */
     line-height: 1;
 }
 
@@ -815,7 +860,7 @@ table tr:nth-child(odd) td {
     position: absolute;
     left: 50%;
     bottom: 135%;
-    transform: translateX( -50% );
+    transform: translateX(-50%);
     background-color: $ci-1;
     color: $white;
     font-size: 0.7rem;
@@ -1006,7 +1051,8 @@ table tr:nth-child(odd) td {
 .vip-button-more {
     display: inline-block;
     padding: 0.5rem 1.1rem;
-    background: #A50034;   /* ATLUTD red */
+    background: #A50034;
+    /* ATLUTD red */
     color: $white !important;
     border-radius: 6px;
     text-transform: uppercase;
@@ -1019,7 +1065,8 @@ table tr:nth-child(odd) td {
 /* Hover and focus */
 .vip-button-more:hover,
 .vip-button-more:focus {
-    background: $Quote_Block;   /* darker ATLUTD red */
+    background: $Quote_Block;
+    /* darker ATLUTD red */
     text-decoration: none;
     transform: translateY(-2px);
 }
@@ -1046,7 +1093,7 @@ table tr:nth-child(odd) td {
 }
 
 .vip-button-icon {
-  margin-left: 0.4em;
+    margin-left: 0.4em;
 }
 
 // ###########################################################################
@@ -1056,13 +1103,15 @@ table tr:nth-child(odd) td {
 /* Social icons strip over the banner – bottom */
 .masthead-social-list {
     position: absolute;
-    bottom: 2px;    /* distance from bottom of banner */
+    bottom: 2px;
+    /* distance from bottom of banner */
     display: flex;
     gap: 0.6rem;
     list-style: none;
     margin: 0;
     padding: 0;
-    z-index: 3;      /* above the banner image */
+    z-index: 3;
+    /* above the banner image */
 }
 
 /* Left & right variants */
@@ -1088,8 +1137,9 @@ table tr:nth-child(odd) td {
 }
 
 .masthead-social-icon {
-    height:  20px;   /* tweak size as needed */
-    width:   auto;
+    height: 20px;
+    /* tweak size as needed */
+    width: auto;
     display: block;
     opacity: 0.9;
 }
@@ -1178,6 +1228,56 @@ table tr:nth-child(odd) td {
 
     .affiliation-logo-frame {
         margin-bottom: 0.75rem;
+    }
+}
+
+// ###########################################################################
+// ATLUTD VIPs - Player Image/Text Block
+// ###########################################################################
+
+.player-block {
+    margin: 30px 0;
+}
+
+.player-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    /* top-align image + stats */
+}
+
+.player-image {
+    flex: 1 1 200px;
+    max-width: 45%;
+}
+
+.player-stats {
+    flex: 1 1 200px;
+    max-width: 45%;
+}
+
+.player-stats h3 {
+    margin-top: 0;
+}
+
+.player-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.player-text {
+    margin-top: 0;
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+@media (max-width: 800px) {
+
+    .player-image,
+    .player-stats {
+        max-width: 100%;
     }
 }
 
@@ -1313,12 +1413,14 @@ table tr:nth-child(odd) td {
     display: inline-flex;
     align-items: center;
     gap: 0.25rem;
-    padding: 0.18rem 0.65rem;   /* smaller, closer to chips */
+    padding: 0.18rem 0.65rem;
+    /* smaller, closer to chips */
     margin: 0 0.25rem;
     border-radius: 999px;
     border: 1px solid #ddd;
     background: #ffffff;
-    font-size: 0.78rem;    /* slightly smaller text */
+    font-size: 0.78rem;
+    /* slightly smaller text */
     font-weight: 600;
     color: #444;
     cursor: pointer;
@@ -1397,8 +1499,10 @@ table tr:nth-child(odd) td {
     margin-top: 0.75rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;  /* center the whole row horizontally */
-    align-items: flex-end;    /* align bottoms of all images */
+    justify-content: center;
+    /* center the whole row horizontally */
+    align-items: flex-end;
+    /* align bottoms of all images */
     gap: 0.75rem;
 }
 
@@ -1511,8 +1615,10 @@ table.on-this-date-stats-table td {
 /* Images row */
 .on-this-date-image-row {
     display: flex;
-    justify-content: center;  /* center the whole row horizontally */
-    align-items: flex-end;    /* align bottoms of all images */
+    justify-content: center;
+    /* center the whole row horizontally */
+    align-items: flex-end;
+    /* align bottoms of all images */
     gap: 0.75rem;
     flex-wrap: wrap;
     /* still wraps on small screens */
@@ -1550,6 +1656,7 @@ table.on-this-date-stats-table td {
     }
 }
 
+
 // ###########################################################################
 // ATLUTD VIPs - Draft Articles
 // ###########################################################################
@@ -1569,4 +1676,100 @@ table.on-this-date-stats-table td {
     border-radius: 999px;
     border: 2px solid #2ef1ff;
     color: #2ef1ff;
+}
+
+/* Draft article styling */
+.article-draft {
+    border: 2px dashed #2ef1ff;
+    background-color: rgba(24, 228, 255, 0.04);
+}
+
+.article-draft-badge {
+    display: inline-block;
+    margin: 0.5rem 0 0.75rem;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #2ef1ff;
+    border: 2px solid #2ef1ff;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.article-hero-draft {
+    position: relative;
+}
+
+.article-hero-draft .draft-watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-18deg);
+
+    /* BIG and unmistakable */
+    font-size: clamp(96px, 18vw, 220px);
+    font-weight: 900;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+
+    color: rgba(46, 241, 255, 0.85);
+    text-shadow:
+        0 0 25px rgba(46, 241, 255, 0.45),
+        0 0 60px rgba(46, 241, 255, 0.25);
+
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.article-hero-draft img {
+    filter: saturate(0.85) contrast(0.95) brightness(0.92);
+}
+
+/* Draft watermark overlay on list thumbnails */
+.home-card-thumb-wrap {
+    position: relative;
+}
+
+.home-card-thumb-wrap .draft-watermark-thumb {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%) rotate(-18deg);
+    font-size: clamp(28px, 5vw, 64px);
+    font-weight: 900;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(46, 241, 255, 0.85);
+    text-shadow:
+        0 0 18px rgba(46, 241, 255, 0.35),
+        0 0 45px rgba(46, 241, 255, 0.20);
+    pointer-events: none;
+    user-select: none;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.home-card-thumb-wrap img {
+    display: block;
+}
+
+.home-card-draft .home-card-thumb-wrap img {
+    filter: saturate(0.75) contrast(0.80) brightness(0.80);
+}
+
+// ###########################################################################
+// ATLUTD VIPs - Getty Images
+// ###########################################################################
+
+.getty-embed {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.getty-embed iframe {
+    max-width: 100%;
 }
