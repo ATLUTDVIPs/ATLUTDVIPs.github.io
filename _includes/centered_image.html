@@ -2,24 +2,16 @@
     Attempts to display an image centered on the page.
     If the image file is not found, displays a placeholder image instead.
 -->
-
 {% assign Image_Path = "/images/" | append: page.image_dir | append: "/" | append: include.file %}
-
-{% assign Image_File = site.static_files | where: "path", Image_Path | first %}
+{% assign Fallback_Path = "/images/testing/Technical Difficulties.jpg" %}
 
 <div style="text-align:center;">
     <figure>
-
-        {% if Image_File %}
-            <img src="{{ site.baseurl }}{{ Image_Path }}" alt="{{ include.alt }}">
-        {% else %}
-            <img src="{{ site.baseurl }}/images/testing/Technical Difficulties.jpg"
-                 alt="Image unavailable">
-        {% endif %}
+        <img src="{{ Image_Path | relative_url }}" alt="{{ include.alt | escape }}"
+            onerror="this.onerror=null; this.src='{{ Fallback_Path | relative_url }}';">
 
         {% if include.caption %}
         <figcaption>{{ include.caption }}</figcaption>
         {% endif %}
-
     </figure>
 </div>
