@@ -35,8 +35,6 @@ The vote does not finalize anything. **AMB Sports and Entertainment (AMBSE)**, w
 >“This purchase reflects our continued commitment to thoughtful, strategic use of Franklin Gateway’s Redevelopment Bond funds,” Mayor **Steve Tumlin** said in a statement following the vote.
 
 ### **A familiar site, back under city control**
-<p>DEBUG: Premier League / NWSL / MLS</p>
-DEBUG: Premier League / NWSL / MLS
 
 Franklin Gateway has quietly become one of the most soccer‑dense pockets in the Atlanta area.
 
