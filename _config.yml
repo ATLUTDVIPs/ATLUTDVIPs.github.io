@@ -108,12 +108,16 @@ compress_html:
 collections:
   content_articles:
     output: true
-    permalink: /:year/:month/:day/:name/
+    permalink: /:year/:month/:day/:slug/
+    # :name - filename without extension
+    # :slug - set in the front matter
+    # :title - article title
+    # :slug - set in the frontmatter
 
   content_match_days:
     output: true
-    permalink: /:year/:month/:day/:name/
-
+    permalink: /:year/:month/:day/:slug/
+    
 #
 #       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_
