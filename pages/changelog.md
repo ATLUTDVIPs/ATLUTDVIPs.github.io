@@ -2,7 +2,7 @@
 layout: page
 title: "Change log"
 meta_title: "Changelog"
-subheadline: ""
+subheadline: "The 20 latest changes to the site"
 teaser: ""
 header:
   #image: "header_unsplash_9.jpg"
