@@ -8,7 +8,7 @@ teaser: "Tristan Trager returns to the US Air Force"
 categories:
   - ATLUTD
   - Players
-  - Tristan Trager
+  - Retired
 tags:
 breadcrumb: false
 author: ATLUTD_VIPs
@@ -34,6 +34,8 @@ mediaplayer: false
 video:
     embedURL: "http://www.hudl.com/v/2NTh6V"
     contentURL: "http://www.hudl.com/v/2NTh6V"
+
+published: true
 
 ---
 

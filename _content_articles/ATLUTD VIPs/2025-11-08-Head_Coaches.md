@@ -25,6 +25,9 @@ image:
     caption: 2021-03-20 - Heinze
 #    caption_url: 
 mediaplayer: false
+
+published: true
+
 ---
 
 <!--more-->

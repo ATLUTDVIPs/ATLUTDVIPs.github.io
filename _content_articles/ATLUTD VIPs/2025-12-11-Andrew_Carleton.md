@@ -6,7 +6,7 @@ teaser: "Tracing the career of Atlanta United’s first Homegrown signing throug
 categories:
   - ATLUTD
   - Players
-  - Andrew Carleton
+  - Retired
 tags:
   - Homegrown
   - Player History
@@ -24,6 +24,8 @@ image:
     homepage: 2025-12-06-Andrew Carleton/2018-03-11 - Andrew Carleton.jpg
     caption: "caption"
 mediaplayer: false
+
+published: true
 
 ---
 

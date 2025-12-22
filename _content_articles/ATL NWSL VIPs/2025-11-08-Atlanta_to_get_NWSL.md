@@ -25,6 +25,7 @@ image:
     caption: "Atlanta Beat Defender #6 Kia McNeill goes up for a header"
 mediaplayer: false
 
+published: true
 
 ---
 

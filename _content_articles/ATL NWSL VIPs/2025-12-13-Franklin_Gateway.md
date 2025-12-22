@@ -22,6 +22,8 @@ image:
     caption: "Children’s Healthcare of Atlanta Training Ground"
 mediaplayer: false
 
+published: true
+
 ---
 
 Marietta does not yet have a women’s professional soccer team. It does, however, now own the land it believes could help bring one there.
@@ -33,6 +35,8 @@ The vote does not finalize anything. **AMB Sports and Entertainment (AMBSE)**, w
 >“This purchase reflects our continued commitment to thoughtful, strategic use of Franklin Gateway’s Redevelopment Bond funds,” Mayor **Steve Tumlin** said in a statement following the vote.
 
 ### **A familiar site, back under city control**
+<p>DEBUG: Premier League / NWSL / MLS</p>
+DEBUG: Premier League / NWSL / MLS
 
 Franklin Gateway has quietly become one of the most soccer‑dense pockets in the Atlanta area.
 
@@ -87,7 +91,8 @@ City officials say that even if the NWSL ultimately chooses another location, th
 ---
 
 ### **Community questions remain**
-
+<p>DEBUG: Premier League / NWSL / MLS</p>
+DEBUG: Premier League / NWSL / MLS
 Not everyone along Franklin Gateway views a professional training facility as the ideal outcome.
 
 {% include centered_image.html
