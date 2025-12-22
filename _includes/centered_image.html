@@ -1,8 +1,25 @@
+<!-- 
+    Attempts to display an image centered on the page.
+    If the image file is not found, displays a placeholder image instead.
+-->
+
+{% assign Image_Path = "/images/" | append: page.image_dir | append: "/" | append: include.file %}
+
+{% assign Image_File = site.static_files | where: "path", Image_Path | first %}
+
 <div style="text-align:center;">
     <figure>
-        <img src="{{ site.baseurl }}/images/{{ page.image_dir }}/{{ include.file }}" alt="{{ include.alt }}">
+
+        {% if Image_File %}
+            <img src="{{ site.baseurl }}{{ Image_Path }}" alt="{{ include.alt }}">
+        {% else %}
+            <img src="{{ site.baseurl }}/images/testing/Technical Difficulties.jpg"
+                 alt="Image unavailable">
+        {% endif %}
+
         {% if include.caption %}
         <figcaption>{{ include.caption }}</figcaption>
         {% endif %}
+
     </figure>
 </div>
