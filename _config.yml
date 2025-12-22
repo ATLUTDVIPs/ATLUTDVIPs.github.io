@@ -117,7 +117,7 @@ collections:
   content_match_days:
     output: true
     permalink: /:year/:month/:day/:slug/
-    
+
 #
 #       ____       ____            ____
 #      / __ \___  / __/___ ___  __/ / /_
@@ -157,6 +157,7 @@ defaults:
       show_meta: true
       comments: false
       author: ATLUTD_VIPs
+      published: false
 
   -
     scope:
@@ -167,6 +168,7 @@ defaults:
       show_meta: true
       comments: false
       author: ATLUTD_VIPs
+      published: false
 
 
 #       _   __            _             __  _
