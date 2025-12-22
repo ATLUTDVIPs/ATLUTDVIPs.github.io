@@ -25,6 +25,9 @@ image:
     caption: "caption"
 #    caption_url: 
 mediaplayer: false
+
+published: false
+
 ---
 
 <!-- Content -->
@@ -43,7 +46,7 @@ mediaplayer: false
 ### Second Half: Initiative Without Reward ###
 {% include centered_image.html
    file="2.jpg"
-   caption="caption"
+   caption="📷 caption ( Photo by x )"
 %}
 
 
