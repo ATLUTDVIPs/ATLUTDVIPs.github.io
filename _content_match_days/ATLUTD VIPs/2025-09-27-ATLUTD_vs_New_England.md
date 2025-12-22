@@ -25,6 +25,9 @@ image:
     caption: "Atlanta United goalkeeper Jayden Hibbert #42 kicks the ball during the first half of the match against New England Revolution at Gillette Stadium in Foxborough, MA on Saturday September 27, 2025. (Photo by Matthew Dingle/Atlanta United)"
 #    caption_url: 
 mediaplayer: false
+
+published: true
+
 ---
 
 <!-- Content -->

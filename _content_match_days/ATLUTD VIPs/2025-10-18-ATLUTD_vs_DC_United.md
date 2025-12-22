@@ -25,6 +25,8 @@ image:
     caption: "Atlanta United goalkeeper Brad Guzan #1 after the match against D.C. United at Mercedes-Benz Stadium in Atlanta, GA on Saturday October 18, 2025. (Photo by AJ Reynolds/Atlanta United)"
 #    caption_url: 
 mediaplayer: false
+
+published: true
 ---
 
 <!-- Content -->

@@ -25,6 +25,9 @@ image:
     caption: "The Starting XI pose for a photo before the match against Nashville SC at GEODIS Park in Nashville, TN on Saturday August 30, 2025. (Photo by Mitch Martin/Atlanta United)"
 #    caption_url: 
 mediaplayer: false
+
+published: true
+
 ---
 
 <!-- Content -->

@@ -25,6 +25,9 @@ image:
     caption: "Starting XI pose during the match against Inter Miami at Chase Stadium in Fort Lauderdale, FL on Saturday October 11, 2025. (Photo by Matthew Dingle/Atlanta United)"
 #    caption_url: 
 mediaplayer: false
+
+published: true
+
 ---
 
 <!-- Content -->

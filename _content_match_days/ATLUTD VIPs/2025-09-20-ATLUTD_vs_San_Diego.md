@@ -25,6 +25,9 @@ image:
     caption: Atlanta United starting eleven players pose before the match against San Diego FC at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 20, 2025. (Photo by Matthew Dingle/Atlanta United)
 #    caption_url: 
 mediaplayer: false
+
+published: true
+
 ---
 
 <!--more-->

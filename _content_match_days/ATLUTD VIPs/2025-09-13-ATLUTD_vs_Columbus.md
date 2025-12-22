@@ -25,6 +25,9 @@ image:
     caption: The Starting XI pose for a photo before the match against Columbus Crew at Mercedes-Benz Stadium in Atlanta, GA on Saturday September 13, 2025. (Photo by Mitch Martin/Atlanta United)	
 #    caption_url: 
 mediaplayer: false
+
+published: true
+
 ---
 
 <!--more-->

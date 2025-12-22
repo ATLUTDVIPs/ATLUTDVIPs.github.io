@@ -25,6 +25,9 @@ image:
     caption: "Starting XI pose prior to the match against Los Angeles FC at BMO Stadium in Los Angeles, CA on Sunday October 5, 2025. (Photo by Mitch Martin-Atlanta United)"
 #    caption_url: 
 mediaplayer: false
+
+published: true
+
 ---
 
 <!-- Content -->
