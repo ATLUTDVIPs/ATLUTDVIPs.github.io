@@ -135,4 +135,27 @@ Military life is not new for the family — Trager’s wife is also serving her 
 <script async src="//www.instagram.com/embed.js"></script>
 
 
+---
+
+    {% include player_block.html
+      heading="Career Stats"
+      side_image="left"
+      file="Trager-4.jpg"
+      caption=""
+      league=""
+      stats="Seasons: 4|Clubs: 4|Leagues: 1|Matches: 88|Starts: 52|Minutes: 4,717|Goals: 23|Assists: 7|Penalties: 1|Yellow Card: 5"
+      cite=""
+      text="Tristan Trager in 22 games for ATLUTD 2, scoring 8, assisting 2."
+    %}
+
+---
+
+{% include Timeline_Crests.html
+  names="Atlanta United 2|Charleston Battery|Monterey Bay|Orange County SC"
+  crests="|||"
+  leagues="USL.png|USL.png|USL.png|USL.png"
+%}
+
+
+
 

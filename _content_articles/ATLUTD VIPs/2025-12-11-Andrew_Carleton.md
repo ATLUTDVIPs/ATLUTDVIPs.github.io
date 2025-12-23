@@ -233,6 +233,21 @@ His path was far from conventional, but it illustrates the shifting reality of t
 - **Yellow Cards:** 4 
 - **Competitions Played:** MLS, USL Championship, NPSL, Costa Rica Liga de Ascenso, USOC, CCL  
 
+---
+
+    {% include player_block.html
+      heading="Career Stats"
+      side_image="left"
+      file="2020-03-07 - Indy Eleven A.jpg"
+      caption="Indy Eleven midfielder Andrew Carleton undercuts Memphis 901 FC forward Pierre da Silva in the season opener at AutoZone Park Saturday, March 7, 2020. Indy scored 3 goals in the final period to overtake Memphis 4-2. (Greg Campbell/Special to The Daily Memphian)"
+      league=""
+      stats="Seasons: 7|Clubs: 7|Leagues: 3|Matches: 111|Starts: 69|Minutes: 6,246|Goals: 11|Assists: 12|Penalties: 3|Yellow Card: 19|Red Cards: 1"
+      cite=""
+      text="Andrew Carleton played in 11 games for ATLUTD, assisting 1."
+    %}
+
+
+
 ## Career Timeline ##
 
 | Year(s) | Club | League / Level |
@@ -248,4 +263,13 @@ His path was far from conventional, but it illustrates the shifting reality of t
 | 2023 | Las Vegas Lights | USL Championship |
 | 2024 | Sneaky Fox FC | TST |
 | 2025 | Trident FC | TST |
+
+
+---
+
+{% include Timeline_Crests.html
+  names="Charleston Battery|Atlanta United|Atlanta United 2|Indy Eleven|Georgia Storm|ADR Jicaral Sercoba|San Diego Loyal|Las Vegas Lights|Sneaky Fox FC|Trident FC"
+  crests="|||||||Las_Vegas_Lights_FC.png||Trident_FC.webp"
+  leagues="USL.png|MLS.png|USL.png|USL.png|NPSL.png|Liga_de_Ascenso.png|USL.png|USL.png|TST.png|TST.png"
+%}
 
