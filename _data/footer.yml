@@ -94,6 +94,10 @@ Bottom_Center:
       url:  "https://www.flaticon.com"
       icon: ""
       note: "icons"
+    - text: "Football Logos"
+      url:  "https://football-logos.cc"
+      icon: ""
+      note: "Crests"
 
 Bottom_Right:
   title: "Follow"
