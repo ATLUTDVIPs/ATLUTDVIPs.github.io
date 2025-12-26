@@ -36,6 +36,12 @@
   url: "/timeline/"
   side: left
 
+- title: Maps
+  url: "/timeline/"
+  side: left
+  children:
+    - title: "Opponents"
+      url: "/opponents/"
 
 - title: About
   url: "/about/"
