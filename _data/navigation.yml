@@ -37,7 +37,7 @@
   side: left
 
 - title: Maps
-  url: "/timeline/"
+  url: "/opponents/"
   side: left
   children:
     - title: "Opponents"

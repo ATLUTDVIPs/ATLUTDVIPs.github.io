@@ -7,7 +7,7 @@
     "Country_Code": "SCT",
     "Latitude": 57.15925381035283,
     "Longitude": -2.088741355577164,
-    "Thumbnail": "/images/Crests/aberdeen.football-logos.cc.png",
+    "Thumbnail": "/images/crests/aberdeen.football-logos.cc.png",
     "Stadium": "Pittodrie Stadium",
     "Matches": {
       "Friendlies": 1,
@@ -28,7 +28,7 @@
     "Country_Code": "MX",
     "Latitude": 18.655129894926446,
     "Longitude": -99.19209408254152,
-    "Thumbnail": "/images/Crests/Atlante_FC_2022_Logo.svg.png",
+    "Thumbnail": "/images/crests/Atlante_FC_2022_Logo.svg.png",
     "Stadium": "Estadio Agustín \"Coruco\" Díaz",
     "Matches": {
       "Friendlies": 1,
@@ -49,7 +49,7 @@
     "Country_Code": "MX",
     "Latitude": 20.70503159464296,
     "Longitude": -103.32820177195599,
-    "Thumbnail": "/images/Crests/Fútbol_Club_Atlas.svg.png",
+    "Thumbnail": "/images/crests/Fútbol_Club_Atlas.svg.png",
     "Stadium": "Estadio Jalisco",
     "Matches": {
       "Friendlies": 0,
@@ -70,7 +70,7 @@
     "Country_Code": "US",
     "Latitude": 30.387736902922633,
     "Longitude": -97.719450569133,
-    "Thumbnail": "/images/Crests/austins-fc.football-logos.cc.png",
+    "Thumbnail": "/images/crests/austins-fc.football-logos.cc.png",
     "Stadium": "Q2 Stadium",
     "Matches": {
       "Friendlies": 0,
@@ -91,7 +91,7 @@
     "Country_Code": "US",
     "Latitude": 33.52784016939099,
     "Longitude": -86.80920858022087,
-    "Thumbnail": "/images/Crests/Birmingham_Legion_FC.svg.png",
+    "Thumbnail": "/images/crests/Birmingham_Legion_FC.svg.png",
     "Stadium": "Protective Stadium",
     "Matches": {
       "Friendlies": 5,
@@ -112,7 +112,7 @@
     "Country_Code": "MX",
     "Latitude": 20.534927644421764,
     "Longitude": -100.81820618660883,
-    "Thumbnail": "/images/Crests/Celaya_F.C._logo.svg.png",
+    "Thumbnail": "/images/crests/Celaya_F.C._logo.svg.png",
     "Stadium": "Estadio Miguel Alemán Valdés",
     "Matches": {
       "Friendlies": 1,
@@ -133,7 +133,7 @@
     "Country_Code": "MX",
     "Latitude": 25.669103276793937,
     "Longitude": -100.2444686203571,
-    "Thumbnail": "/images/Crests/Club_de_Fútbol_Monterrey_logo.png",
+    "Thumbnail": "/images/crests/Club_de_Fútbol_Monterrey_logo.png",
     "Stadium": "Estadio BBVA",
     "Matches": {
       "Friendlies": 0,
@@ -154,7 +154,7 @@
     "Country_Code": "CA",
     "Latitude": 45.56306427293782,
     "Longitude": -73.55265515448153,
-    "Thumbnail": "/images/Crests/cf-montreal.football-logos.cc.png",
+    "Thumbnail": "/images/crests/cf-montreal.football-logos.cc.png",
     "Stadium": "Saputo Stadium",
     "Matches": {
       "Friendlies": 1,
@@ -175,7 +175,7 @@
     "Country_Code": "US",
     "Latitude": 32.79490985067155,
     "Longitude": -79.90297575587445,
-    "Thumbnail": "/images/Crests/Charleston_Battery.png",
+    "Thumbnail": "/images/crests/Charleston_Battery.png",
     "Stadium": "Patriots Point Soccer Complex",
     "Matches": {
       "Friendlies": 3,
@@ -196,7 +196,7 @@
     "Country_Code": "US",
     "Latitude": 35.22581385226404,
     "Longitude": -80.85281831875932,
-    "Thumbnail": "/images/Crests/charlotte-fc.football-logos.cc.png",
+    "Thumbnail": "/images/crests/charlotte-fc.football-logos.cc.png",
     "Stadium": "Bank of America Stadium",
     "Matches": {
       "Friendlies": 0,
@@ -217,7 +217,7 @@
     "Country_Code": "US",
     "Latitude": 35.21820176853371,
     "Longitude": -80.82822843740652,
-    "Thumbnail": "/images/Crests/Charlotte_Independence.png",
+    "Thumbnail": "/images/crests/Charlotte_Independence.png",
     "Stadium": "American Legion Memorial Stadium",
     "Matches": {
       "Friendlies": 0,
@@ -238,7 +238,7 @@
     "Country_Code": "US",
     "Latitude": 35.03636346820834,
     "Longitude": -85.31573489340425,
-    "Thumbnail": "/images/Crests/Chattanooga_FC_logo.png",
+    "Thumbnail": "/images/crests/Chattanooga_FC_logo.png",
     "Stadium": "Finley Stadium",
     "Matches": {
       "Friendlies": 4,
@@ -259,7 +259,7 @@
     "Country_Code": "US",
     "Latitude": 41.86229718468632,
     "Longitude": -87.6166933859258,
-    "Thumbnail": "/images/Crests/chicago-fire-fc.football-logos.cc.png",
+    "Thumbnail": "/images/crests/chicago-fire-fc.football-logos.cc.png",
     "Stadium": "Soldier Field",
     "Matches": {
       "Friendlies": 0,
@@ -294,7 +294,7 @@
     "Country_Code": "MX",
     "Latitude": 19.38344049121603,
     "Longitude": -99.17826804634012,
-    "Thumbnail": "/images/Crests/Club_América_crest.png",
+    "Thumbnail": "/images/crests/Club_América_crest.png",
     "Stadium": "Estadio Ciudad de los Deportes",
     "Matches": {
       "Friendlies": 0,
@@ -315,7 +315,7 @@
     "Country_Code": "MX",
     "Latitude": 32.505966868485054,
     "Longitude": -116.99309844019466,
-    "Thumbnail": "/images/Crests/Club_Tijuana.png",
+    "Thumbnail": "/images/crests/Club_Tijuana.png",
     "Stadium": "Estadio Caliente",
     "Matches": {
       "Friendlies": 1,
@@ -336,7 +336,7 @@
     "Country_Code": "MX",
     "Latitude": 19.331886140318893,
     "Longitude": -99.19210491333335,
-    "Thumbnail": "/images/Crests/Club_Universidad_Nacional_logo.png",
+    "Thumbnail": "/images/crests/Club_Universidad_Nacional_logo.png",
     "Stadium": "Estadio Olímpico Universitario",
     "Matches": {
       "Friendlies": 0,
@@ -357,7 +357,7 @@
     "Country_Code": "US",
     "Latitude": 39.80568859790441,
     "Longitude": -104.89182252707,
-    "Thumbnail": "/images/Crests/colorado-rapids.football-logos.cc.png",
+    "Thumbnail": "/images/crests/colorado-rapids.football-logos.cc.png",
     "Stadium": "Dick's Sporting Goods Park",
     "Matches": {
       "Friendlies": 0,
@@ -378,7 +378,7 @@
     "Country_Code": "US",
     "Latitude": 39.968433108860864,
     "Longitude": -83.01697228100133,
-    "Thumbnail": "/images/Crests/Columbus_Crew.png",
+    "Thumbnail": "/images/crests/Columbus_Crew.png",
     "Stadium": "Lower.com Field",
     "Matches": {
       "Friendlies": 2,
@@ -399,7 +399,7 @@
     "Country_Code": "MX",
     "Latitude": 19.331885849336473,
     "Longitude": -99.19210812678462,
-    "Thumbnail": "/images/Crests/Cruz Azul.png",
+    "Thumbnail": "/images/crests/Cruz Azul.png",
     "Stadium": "Estadio Olímpico Universitario",
     "Matches": {
       "Friendlies": 1,
@@ -420,7 +420,7 @@
     "Country_Code": "US",
     "Latitude": 38.868415,
     "Longitude": -77.012825,
-    "Thumbnail": "/images/Crests/dc-united.football-logos.cc.png",
+    "Thumbnail": "/images/crests/dc-united.football-logos.cc.png",
     "Stadium": "Audi Field",
     "Matches": {
       "Friendlies": 0,
@@ -441,7 +441,7 @@
     "Country_Code": "US",
     "Latitude": 39.11110214466419,
     "Longitude": -84.52224040840099,
-    "Thumbnail": "/images/Crests/fc-cincinnati.football-logos.cc.png",
+    "Thumbnail": "/images/crests/fc-cincinnati.football-logos.cc.png",
     "Stadium": "TQL Stadium",
     "Matches": {
       "Friendlies": 1,
@@ -462,7 +462,7 @@
     "Country_Code": "US",
     "Latitude": 33.154330572345266,
     "Longitude": -96.83520124222686,
-    "Thumbnail": "/images/Crests/fc-dallas.football-logos.cc.png",
+    "Thumbnail": "/images/crests/fc-dallas.football-logos.cc.png",
     "Stadium": "Toyota Stadium",
     "Matches": {
       "Friendlies": 1,
@@ -483,7 +483,7 @@
     "Country_Code": "HN",
     "Latitude": 14.09842627801551,
     "Longitude": -87.2039253010141,
-    "Thumbnail": "/images/Crests/F.C._Motagua.png",
+    "Thumbnail": "/images/crests/F.C._Motagua.png",
     "Stadium": "Estadio Nacional Chelato Uclés",
     "Matches": {
       "Friendlies": 0,
@@ -504,7 +504,7 @@
     "Country_Code": "US",
     "Latitude": 33.438502893030915,
     "Longitude": -84.13395017569812,
-    "Thumbnail": "/images/Crests/Georgia_Revolution_FC.png",
+    "Thumbnail": "/images/crests/Georgia_Revolution_FC.png",
     "Stadium": "Warhawk Stadium",
     "Matches": {
       "Friendlies": 1,
@@ -525,7 +525,7 @@
     "Country_Code": "US",
     "Latitude": 33.57835908111582,
     "Longitude": -85.11738234993373,
-    "Thumbnail": "/images/Crests/Georgia_Storm.png",
+    "Thumbnail": "/images/crests/Georgia_Storm.png",
     "Stadium": "University of West Georgia Soccer Field",
     "Matches": {
       "Friendlies": 1,
@@ -546,7 +546,7 @@
     "Country_Code": "CR",
     "Latitude": 9.999472708680358,
     "Longitude": -84.12297634294134,
-    "Thumbnail": "/images/Crests/Herediano.png",
+    "Thumbnail": "/images/crests/Herediano.png",
     "Stadium": "Estadio Eladio Rosabal Cordero",
     "Matches": {
       "Friendlies": 0,
@@ -567,7 +567,7 @@
     "Country_Code": "US",
     "Latitude": 29.752240129324377,
     "Longitude": -95.35220986135084,
-    "Thumbnail": "/images/Crests/houston-dynamo.football-logos.cc.png",
+    "Thumbnail": "/images/crests/houston-dynamo.football-logos.cc.png",
     "Stadium": "Shell Energy Stadium",
     "Matches": {
       "Friendlies": 0,
@@ -588,7 +588,7 @@
     "Country_Code": "SW",
     "Latitude": 57.7344222766752,
     "Longitude": 12.93478219745783,
-    "Thumbnail": "/images/Crests/IF Elfsborg.png",
+    "Thumbnail": "/images/crests/IF Elfsborg.png",
     "Stadium": "Borås Arena",
     "Matches": {
       "Friendlies": 1,
@@ -609,7 +609,7 @@
     "Country_Code": "US",
     "Latitude": 39.77109896756374,
     "Longitude": -86.1778834825624,
-    "Thumbnail": "/images/Crests/Indy_Eleven.png",
+    "Thumbnail": "/images/crests/Indy_Eleven.png",
     "Stadium": "Michael A. Carroll Stadium",
     "Matches": {
       "Friendlies": 0,
@@ -630,7 +630,7 @@
     "Country_Code": "US",
     "Latitude": 25.79093961601501,
     "Longitude": -80.26204978832843,
-    "Thumbnail": "/images/Crests/Inter_Miami.png",
+    "Thumbnail": "/images/crests/Inter_Miami.png",
     "Stadium": "Miami Freedom Park",
     "Matches": {
       "Friendlies": 0,
@@ -651,7 +651,7 @@
     "Country_Code": "US",
     "Latitude": 33.86430668138113,
     "Longitude": -118.26107114741745,
-    "Thumbnail": "/images/Crests/la-galaxy.football-logos.cc.png",
+    "Thumbnail": "/images/crests/la-galaxy.football-logos.cc.png",
     "Stadium": "Dignity Health Sports Park",
     "Matches": {
       "Friendlies": 2,
@@ -672,7 +672,7 @@
     "Country_Code": "US",
     "Latitude": 34.012731790798775,
     "Longitude": -118.28406453896274,
-    "Thumbnail": "/images/Crests/los-angeles-fc.football-logos.cc.png",
+    "Thumbnail": "/images/crests/los-angeles-fc.football-logos.cc.png",
     "Stadium": "BMO Stadium",
     "Matches": {
       "Friendlies": 0,
@@ -693,7 +693,7 @@
     "Country_Code": "MX",
     "Latitude": 20.70503159464296,
     "Longitude": -103.32820177195599,
-    "Thumbnail": "/images/Crests/Leones_Negros_Guadalajara.png",
+    "Thumbnail": "/images/crests/Leones_Negros_Guadalajara.png",
     "Stadium": "Estadio Jalisco",
     "Matches": {
       "Friendlies": 1,
@@ -714,7 +714,7 @@
     "Country_Code": "CR",
     "Latitude": 10.021807240706158,
     "Longitude": -84.20914388661764,
-    "Thumbnail": "/images/Crests/Liga Deportiva Alajuelense.png",
+    "Thumbnail": "/images/crests/Liga Deportiva Alajuelense.png",
     "Stadium": "Estadio Alejandro Morera Soto",
     "Matches": {
       "Friendlies": 0,
@@ -749,7 +749,7 @@
     "Country_Code": "US",
     "Latitude": 35.14291029812361,
     "Longitude": -90.0490977199738,
-    "Thumbnail": "/images/Crests/Memphis_901.png",
+    "Thumbnail": "/images/crests/Memphis_901.png",
     "Stadium": "AutoZone Park",
     "Matches": {
       "Friendlies": 1,
@@ -770,7 +770,7 @@
     "Country_Code": "US",
     "Latitude": 25.75247807965725,
     "Longitude": -80.37789718590825,
-    "Thumbnail": "/images/Crests/Miami_FC.png",
+    "Thumbnail": "/images/crests/Miami_FC.png",
     "Stadium": "Pitbull Stadium",
     "Matches": {
       "Friendlies": 0,
@@ -791,7 +791,7 @@
     "Country_Code": "US",
     "Latitude": 44.953109523099364,
     "Longitude": -93.1646922807796,
-    "Thumbnail": "/images/Crests/Minnesota_United.png",
+    "Thumbnail": "/images/crests/Minnesota_United.png",
     "Stadium": "Allianz Field",
     "Matches": {
       "Friendlies": 1,
@@ -812,7 +812,7 @@
     "Country_Code": "US",
     "Latitude": 36.130082499668994,
     "Longitude": -86.76600984017746,
-    "Thumbnail": "/images/Crests/nashville-sc.football-logos.cc.png",
+    "Thumbnail": "/images/crests/nashville-sc.football-logos.cc.png",
     "Stadium": "Geodis Park",
     "Matches": {
       "Friendlies": 1,
@@ -833,7 +833,7 @@
     "Country_Code": "MX",
     "Latitude": 21.8806566466928,
     "Longitude": -102.27550217832645,
-    "Thumbnail": "/images/Crests/Club_Necaxa_Logo.png",
+    "Thumbnail": "/images/crests/Club_Necaxa_Logo.png",
     "Stadium": "Estadio Victoria",
     "Matches": {
       "Friendlies": 0,
@@ -854,7 +854,7 @@
     "Country_Code": "US",
     "Latitude": 40.73685576533607,
     "Longitude": -74.15026766451993,
-    "Thumbnail": "/images/Crests/new-york-red-bulls.football-logos.cc.png",
+    "Thumbnail": "/images/crests/new-york-red-bulls.football-logos.cc.png",
     "Stadium": "Sports Illustrated Stadium",
     "Matches": {
       "Friendlies": 1,
@@ -875,7 +875,7 @@
     "Country_Code": "US",
     "Latitude": 40.82964398296647,
     "Longitude": -73.92621092393537,
-    "Thumbnail": "/images/Crests/new-york-city-fc.football-logos.cc.png",
+    "Thumbnail": "/images/crests/new-york-city-fc.football-logos.cc.png",
     "Stadium": "Yankee Stadium",
     "Matches": {
       "Friendlies": 1,
@@ -896,7 +896,7 @@
     "Country_Code": "US",
     "Latitude": 28.541106588575392,
     "Longitude": -81.38900866156304,
-    "Thumbnail": "/images/Crests/orlando-city.football-logos.cc.png",
+    "Thumbnail": "/images/crests/orlando-city.football-logos.cc.png",
     "Stadium": "Inter&Co Stadium",
     "Matches": {
       "Friendlies": 1,
@@ -917,7 +917,7 @@
     "Country_Code": "MX",
     "Latitude": 20.10523395053618,
     "Longitude": -98.75619049178869,
-    "Thumbnail": "/images/Crests/Pachuca_Tuzos_logo.png",
+    "Thumbnail": "/images/crests/Pachuca_Tuzos_logo.png",
     "Stadium": "Estadio Hidalgo",
     "Matches": {
       "Friendlies": 0,
@@ -938,7 +938,7 @@
     "Country_Code": "US",
     "Latitude": 39.83281496384737,
     "Longitude": -75.3785286827333,
-    "Thumbnail": "/images/Crests/Tormenta_FC_logo.png",
+    "Thumbnail": "/images/crests/Tormenta_FC_logo.png",
     "Stadium": "Subaru Park",
     "Matches": {
       "Friendlies": 1,
@@ -959,7 +959,7 @@
     "Country_Code": "US",
     "Latitude": 45.52152325991837,
     "Longitude": -122.69180625374803,
-    "Thumbnail": "/images/Crests/portland-timbers.football-logos.cc.png",
+    "Thumbnail": "/images/crests/portland-timbers.football-logos.cc.png",
     "Stadium": "Providence Park",
     "Matches": {
       "Friendlies": 0,
@@ -980,7 +980,7 @@
     "Country_Code": "US",
     "Latitude": 40.58294036943582,
     "Longitude": -111.89337087668066,
-    "Thumbnail": "/images/Crests/real-salt-lake.football-logos.cc.png",
+    "Thumbnail": "/images/crests/real-salt-lake.football-logos.cc.png",
     "Stadium": "America First Field",
     "Matches": {
       "Friendlies": 0,
@@ -1001,7 +1001,7 @@
     "Country_Code": "US",
     "Latitude": 32.78421030776748,
     "Longitude": -117.12242904208017,
-    "Thumbnail": "/images/Crests/San Diego FC.png",
+    "Thumbnail": "/images/crests/San Diego FC.png",
     "Stadium": "Snapdragon Stadium",
     "Matches": {
       "Friendlies": 0,
@@ -1022,7 +1022,7 @@
     "Country_Code": "US",
     "Latitude": 37.35111693539172,
     "Longitude": -121.92459650118795,
-    "Thumbnail": "/images/Crests/san-jose-earthquakes.football-logos.cc.png",
+    "Thumbnail": "/images/crests/san-jose-earthquakes.football-logos.cc.png",
     "Stadium": "PayPal Park",
     "Matches": {
       "Friendlies": 0,
@@ -1043,7 +1043,7 @@
     "Country_Code": "MX",
     "Latitude": 25.628704842363263,
     "Longitude": -103.37991713461317,
-    "Thumbnail": "/images/Crests/Santos_Laguna_logo.png",
+    "Thumbnail": "/images/crests/Santos_Laguna_logo.png",
     "Stadium": "Estadio Corona",
     "Matches": {
       "Friendlies": 0,
@@ -1064,7 +1064,7 @@
     "Country_Code": "US",
     "Latitude": 47.5953354148877,
     "Longitude": -122.33161816607463,
-    "Thumbnail": "/images/Crests/Seattle_Sounders.png",
+    "Thumbnail": "/images/crests/Seattle_Sounders.png",
     "Stadium": "Lumen Field",
     "Matches": {
       "Friendlies": 2,
@@ -1099,7 +1099,7 @@
     "Country_Code": "US",
     "Latitude": 39.12159778592363,
     "Longitude": -94.82320919928989,
-    "Thumbnail": "/images/Crests/sporting-kansas-city.football-logos.cc.png",
+    "Thumbnail": "/images/crests/sporting-kansas-city.football-logos.cc.png",
     "Stadium": "Children's Mercy Park",
     "Matches": {
       "Friendlies": 1,
@@ -1120,7 +1120,7 @@
     "Country_Code": "US",
     "Latitude": 38.63134652903309,
     "Longitude": -90.21030428563388,
-    "Thumbnail": "/images/Crests/st-louis-city-sc.football-logos.cc.png",
+    "Thumbnail": "/images/crests/st-louis-city-sc.football-logos.cc.png",
     "Stadium": "Energizer Park",
     "Matches": {
       "Friendlies": 1,
@@ -1141,7 +1141,7 @@
     "Country_Code": "US",
     "Latitude": 27.768133546622405,
     "Longitude": -82.63299360428014,
-    "Thumbnail": "/images/Crests/Tampa Bay Rowdies.png",
+    "Thumbnail": "/images/crests/Tampa Bay Rowdies.png",
     "Stadium": "Al Lang Stadium",
     "Matches": {
       "Friendlies": 1,
@@ -1162,7 +1162,7 @@
     "Country_Code": "MX",
     "Latitude": 19.28728484902519,
     "Longitude": -99.66681186295945,
-    "Thumbnail": "/images/Crests/Club_Toluca_Logo.png",
+    "Thumbnail": "/images/crests/Club_Toluca_Logo.png",
     "Stadium": "Estadio Nemesio Díez",
     "Matches": {
       "Friendlies": 0,
@@ -1183,7 +1183,7 @@
     "Country_Code": "US",
     "Latitude": 32.41022700440597,
     "Longitude": -81.79596410819006,
-    "Thumbnail": "/images/Crests/Tormenta_FC_logo.png",
+    "Thumbnail": "/images/crests/Tormenta_FC_logo.png",
     "Stadium": "Tormenta Stadium",
     "Matches": {
       "Friendlies": 1,
@@ -1204,7 +1204,7 @@
     "Country_Code": "CA",
     "Latitude": 43.63319690724283,
     "Longitude": -79.41854508342081,
-    "Thumbnail": "/images/Crests/toronto-fc.football-logos.cc.png",
+    "Thumbnail": "/images/crests/toronto-fc.football-logos.cc.png",
     "Stadium": "BMO Field",
     "Matches": {
       "Friendlies": 0,
@@ -1225,7 +1225,7 @@
     "Country_Code": "CA",
     "Latitude": 49.27671018894545,
     "Longitude": -123.11216710548223,
-    "Thumbnail": "/images/Crests/vancouver-whitecaps-fc.football-logos.cc.png",
+    "Thumbnail": "/images/crests/vancouver-whitecaps-fc.football-logos.cc.png",
     "Stadium": "BC Place",
     "Matches": {
       "Friendlies": 0,
