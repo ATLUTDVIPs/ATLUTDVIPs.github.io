@@ -193,27 +193,43 @@
 
 					{% elsif use_random %}
 
-						{% comment %}3) Random-but-stable daily header from /images/headers/{% endcomment %}
+						{% comment %}
+							3) Random-but-stable daily header from /images/headers/
+
+							Rules:
+							- If /images/headers/MMDD/ exists and has images for today → ONLY use those.
+							- Else → ONLY use images directly under /images/headers/ (no subdirectories).
+						{% endcomment %}
+
 						{% assign today_mmdd = site.time | date: "%m%d" %}
+						{% assign mmdd_dir = "/images/headers/" | append: today_mmdd | append: "/" %}
 
-						{% assign header_images = site.static_files
-							 | where_exp: "img", "img.path contains '/images/headers/'" %}
+						{% assign header_images_mmdd = "" | split: "" %}
+						{% assign header_images_root = "" | split: "" %}
 
-						{%- comment -%}
-							Look up a matching header config from _data/header.yml
-							based on today_mmdd, and filter header_images by its dir
-						{%- endcomment -%}
+						{% for img in site.static_files %}
+							{% if img.path contains "/images/headers/" %}
 
-						{% assign header_config = site.data.header.special_headers
-							| where: "date", today_mmdd
-							| first %}
+							{% assign remainder = img.path | remove_first: "/images/headers/" %}
 
-						{% if header_config %}
-							{% assign header_dir = header_config.dir %}
-							{% assign header_images = header_images
-								| where_exp: "img", "img.path contains header_dir" %}
+							{% if img.path contains mmdd_dir %}
+								{% assign header_images_mmdd = header_images_mmdd | push: img %}
+
+							{% elsif remainder contains "/" %}
+								{% comment %}Skip subdirectory images unless they are in today's MMDD dir{% endcomment %}
+
+							{% else %}
+								{% assign header_images_root = header_images_root | push: img %}
+							{% endif %}
+
+							{% endif %}
+						{% endfor %}
+
+						{% if header_images_mmdd.size > 0 %}
+							{% assign header_images = header_images_mmdd %}
+						{% else %}
+							{% assign header_images = header_images_root %}
 						{% endif %}
-
 
 						{% if header_images.size > 0 %}
 							{% assign day_key = site.time | date: "%Y%m%d" | plus: 0 %}
@@ -221,7 +237,9 @@
 							{% assign header_image = header_images[idx] %}
 							{% assign header_src = header_image.path %}
 						{% endif %}
+
 					{% endif %}
+
 
 					
 					{% if header_src %}
