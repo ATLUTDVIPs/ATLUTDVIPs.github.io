@@ -73,7 +73,7 @@ permalink: /opponents/
   </div>
 
   <div class="home-card-excerpt" style="margin-top:0;">
-    <strong>{{ Total_Opponents }}</strong> opponents face from <strong>{{ Total_Countries }}</strong> different nations<br/>
+    <strong>{{ Total_Opponents }}</strong> opponents faced from <strong>{{ Total_Countries }}</strong> different nations<br/>
     Total matches (by competition buckets): <strong>{{ Total_Matches }}</strong>
   </div>
 
