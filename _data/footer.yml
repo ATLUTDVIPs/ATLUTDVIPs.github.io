@@ -72,7 +72,7 @@ Bottom_Center:
   items:
     - text: "GitHub Pages"
       url:  "https://docs.github.com/en/pages"
-      icon: "icons8-github-96.png"
+      icon: "github.png"
       note: ""
     - text: "Jekyll"
       url:  "https://jekyllrb.com"
