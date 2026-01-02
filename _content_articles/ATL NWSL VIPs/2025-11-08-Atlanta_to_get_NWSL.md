@@ -25,6 +25,12 @@ image:
     caption: "Atlanta Beat Defender #6 Kia McNeill goes up for a header"
 mediaplayer: false
 
+syndication:
+  affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
+  original_url: "https://www.patreon.com/posts/atlantas-womens-143305657"   # overrides affiliations link
+  original_date: 2025-11-10
+  relationship: "republished"  
+
 published: true
 
 ---

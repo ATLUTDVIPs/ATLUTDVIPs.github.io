@@ -31,6 +31,13 @@ image:
     caption: "Atlanta United 2, Fifth-Third Bank Stadium, KSU, Kennesaw, USL, USL Matchday, matchday the USL match against FC Tulsa at Fifth-Third Bank Stadium in Atlanta, Georgia, on Saturday September 3, 2022. (Photo by Jay Bendlin/Atlanta United)"
 mediaplayer: false
 
+syndication:
+  affiliation_id: "atlutd_fantv"
+  original_url: "https://www.patreon.com/posts/unique-five-from-144415435"   # optional override
+  original_date: 2025-11-25
+  relationship: "republished"
+
+
 video:
     embedURL: "http://www.hudl.com/v/2NTh6V"
     contentURL: "http://www.hudl.com/v/2NTh6V"

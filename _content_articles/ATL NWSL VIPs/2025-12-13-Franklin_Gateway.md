@@ -22,6 +22,13 @@ image:
     caption: "Children’s Healthcare of Atlanta Training Ground"
 mediaplayer: false
 
+syndication:
+  affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
+  original_url: "https://www.patreon.com/posts/future-training-145904397"   # overrides affiliations link
+  original_date: 2025-12-15
+  relationship: "republished"  
+
+
 published: true
 
 ---

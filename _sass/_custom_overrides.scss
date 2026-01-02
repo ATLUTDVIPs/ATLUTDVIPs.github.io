@@ -1960,3 +1960,38 @@ table.vip-club-timeline .vip-league-logo {
     background: rgba(0, 0, 0, 0.03);
     border: 1px solid rgba(0, 0, 0, 0.12);
 }
+
+// ###########################################################################
+// ATLUTD VIPs - Syndication Notice
+// ###########################################################################
+
+.syndication-notice {
+    margin: 1.5rem 0;
+    padding: 0.75rem 1rem;
+    background: rgba(0, 0, 0, 0.03);
+    font-size: 0.9rem;
+
+    /* visual */
+    border-left: 1px solid $Quote_Block;
+    //border-top:   1px solid $Quote_Block;
+}
+
+.syndication-notice-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.syndication-notice p {
+    margin: 0;
+}
+
+.syndication-logo img {
+    height: 30px;
+    width: auto;
+    display: block;
+}
+
+.syndication-text {
+    flex: 1;
+}

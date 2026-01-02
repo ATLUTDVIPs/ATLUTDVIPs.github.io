@@ -22,6 +22,22 @@ image:
   caption: "Alexia Putellas"
 mediaplayer: false
 
+priority: Medium
+
+dates:
+  - label: "Started"
+    date: "2025-12-23"
+  - label: "Updated"
+    date: "2025-12-23"
+  - label: "Published"
+    date: "2025-12-23"
+
+syndication:
+  affiliation_id: "atl_nwsl_vips" # Reference to ID in affiliations.yml
+  original_url: "https://atlnwslvips.com/2025/12/23/2025-12-23-high-impact-player-rule/"   # overrides affiliations link
+  original_date: 2025-12-23
+  relationship: "partnership"  
+
 published: true
 
 ---

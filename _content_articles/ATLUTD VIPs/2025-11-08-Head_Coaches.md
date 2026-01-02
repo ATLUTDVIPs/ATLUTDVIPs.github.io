@@ -26,6 +26,12 @@ image:
 #    caption_url: 
 mediaplayer: false
 
+syndication:
+  affiliation_id: "atlutd_fantv" # Reference to ID in affiliations.yml
+  original_url: "https://www.patreon.com/posts/lessons-from-all-143884172"   # overrides affiliations link
+  original_date: 2025-11-19
+  relationship: "republished"  
+
 published: true
 
 ---
