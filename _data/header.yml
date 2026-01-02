@@ -27,7 +27,7 @@ Bottom_Right:
 
     - text: "GitHub"
       url:  "https://github.com/ATLUTDVIPs"
-      icon: "icons8-github-96.png"
+      icon: "github.png"
       note: ""
 
     - text: "LinkedIn"
