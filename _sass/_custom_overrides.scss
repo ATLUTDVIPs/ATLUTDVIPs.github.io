@@ -166,18 +166,36 @@ input[type="button"]:hover {
 // ###########################################################################
 // Meta row: Article page
 // ###########################################################################
+.article-title {
+    margin-bottom: 0.4rem;
+}
+
+.article-header .subheadline {
+    text-transform: none;   /* kill the ALL CAPS */
+    letter-spacing: 0.02em; /* softer than uppercase spacing */
+    font-size: 0.85rem;     /* smaller than body, clearly secondary */
+    font-weight: 700;
+    margin: 0 0 0.35rem;
+    opacity: 0.85;
+}
+
+.article-header .teaser {
+    font-style: italic;
+    font-size: 0.95rem;  /* smaller than theme's rem-calc(20) */
+    font-weight: 400;
+    line-height: 1.45;
+    margin: 0.15rem 0 0.85rem;
+    opacity: 0.9;
+}
+
 
 /* Article page header – aligned with card style */
-
 .article-header {
     margin-bottom: 1.5rem;
     border-top: 3px solid $ci-5;
     padding-top: 1rem;
 }
 
-.article-title {
-    margin-bottom: 0.4rem;
-}
 
 .article-meta {
     font-size: 0.85rem;
@@ -200,10 +218,6 @@ input[type="button"]:hover {
 
 .article-meta-author {
     font-weight: 600;
-}
-
-.article-meta-dot {
-    margin: 0 0.35rem;
 }
 
 .article-meta-reading {
