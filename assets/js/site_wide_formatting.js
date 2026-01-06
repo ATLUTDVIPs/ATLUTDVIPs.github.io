@@ -78,6 +78,23 @@
 		return false;
 	}
 
+	function Is_Inside_Heading( Node ) {
+
+		let Current = Node.parentNode;
+
+		while ( Current && Current.nodeType === 1 ) {
+
+			if ( Current.tagName && /^h[1-6]$/i.test( Current.tagName ) ) {
+				return true;
+			}
+
+			Current = Current.parentNode;
+		}
+
+		return false;
+	}
+
+
 	function Should_Skip_Text_Node( Text_Node ) {
 
 		// Skip if blank
@@ -113,6 +130,11 @@
 			return;
 		}
 
+		// Do not bold/italicize inside headings or links
+		if ( Is_Inside_Heading( Text_Node ) || Is_Inside_Tag( Text_Node, "a" ) ) {
+			return;
+		}
+
 		const Regex = Build_Term_Regex( Terms );
 		if ( !Regex ) {
 			return;
@@ -140,6 +162,7 @@
 
 		Parent.removeChild( Text_Node );
 	}
+
 
 	function Process_Container( Container ) {
 
