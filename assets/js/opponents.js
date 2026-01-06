@@ -14,7 +14,7 @@
       Warning_Host.innerHTML =
         `<div class="Data_Warning">
           <strong>No opponent data loaded.</strong><br>
-          Confirm your file exists at <code>_data/Opponents.yml</code>.
+          Confirm your file exists at <code>_data/Opponents.json</code>.
         </div>`;
     }
     return;
