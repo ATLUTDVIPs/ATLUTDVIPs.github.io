@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Bartosz Slisz signs for Brøndy IF"
+title: "Bartosz Slisz signs for Brøndby IF"
 subheadline: "Atlanta United midfielder returns to Europe ahead of the World Cup cycle"
 teaser: "Atlanta United sell one of their more reliable contributors as Slisz returns to Europe in a World Cup year."
 categories:
