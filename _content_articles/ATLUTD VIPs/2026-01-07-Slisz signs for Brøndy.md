@@ -98,7 +98,7 @@ A return to Europe places Bartosz Slisz back within close proximity of the Polan
 
 While MLS minutes are no longer ignored, geography still shapes access. European-based players are easier to watch live, easier to bring players into short international windows, and operate within competitive calendars that more closely mirror UEFA competition.
 
-The timing of the move also matters. By transferring now, Slisz will be playing league matches in January, gaining competitive minutes during a period when MLS players remain in preseason. Had he stayed in Atlanta, his first meaningful matches would not arrive until late February.  That difference amounts to roughly six additional weeks of competitive football ahead of the World Cup cycle. It does not guarantee selection, but it places Slisz in match rhythm earlier, during a window when preparation, fitness, and availability are being assessed.
+By transferring now, Slisz will be playing league matches in January, gaining competitive minutes during a period when MLS players remain in preseason. Had he stayed in Atlanta, his first meaningful matches would not arrive until late February.  That difference amounts to roughly six additional weeks of competitive football ahead of the World Cup cycle. It does not guarantee selection, and Poland have yet to qualify, but it places Slisz in match rhythm earlier, during a window when preparation, fitness, and availability are being assessed.
 
 --- 
 
