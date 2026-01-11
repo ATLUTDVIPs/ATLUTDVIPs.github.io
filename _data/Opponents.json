@@ -1237,5 +1237,27 @@
       "Campeones": 0,
       "Other": 0
     }
+  },
+  {
+    "ID": "MLS_New_England",
+    "Name": "New England Revolution",
+    "Current_City": "Foxborough",
+    "State": "Massachusetts",
+    "Current_Country": "United States",
+    "Country_Code": "US",
+    "Latitude": 42.090887452866255,
+    "Longitude": -71.26438905113051,
+    "Thumbnail": "/images/crests/new-england-revolution.football-logos.cc.png",
+    "Stadium": "Gillette Stadium",
+    "Matches": {
+      "Friendlies": 0,
+      "MLS": 0,
+      "US_Open_Cup": 0,
+      "Leagues_Cup": 0,
+      "CONCACAF": 0,
+      "AmFamCup": 0,
+      "Campeones": 0,
+      "Other": 0
+    }
   }
 ]
