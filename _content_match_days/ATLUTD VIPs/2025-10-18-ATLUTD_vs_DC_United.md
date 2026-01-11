@@ -11,6 +11,8 @@ categories:
   - GameDay
 tags:
 author: ATLUTD_VIPs
+opponent_id: "MLS_DC_United"  # Matches the ID in Opponents.json
+location: "Home"              # [ "Home", "Away", "Neutral" ]
 
 image_dir: "2025-10-18-ATLUTD_vs_DC_United"
 

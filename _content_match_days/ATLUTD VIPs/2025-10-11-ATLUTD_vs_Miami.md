@@ -11,6 +11,8 @@ categories:
   - GameDay
 tags:
 author: ATLUTD_VIPs
+opponent_id: "MLS_Inter_Miami"  # Matches the ID in Opponents.json
+location: "Away"                # [ "Home", "Away", "Neutral" ]
 
 image_dir: "2025-10-11-ATLUTD_vs_Miami"
 

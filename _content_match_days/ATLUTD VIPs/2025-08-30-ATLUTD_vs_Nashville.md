@@ -11,6 +11,9 @@ categories:
   - GameDay
 tags:
 author: ATLUTD_VIPs
+opponent_id: "MLS_Nashville"  # Matches the ID in Opponents.json
+location: "Away"              # [ "Home", "Away", "Neutral" ]
+
 
 image_dir: "2025-08-30-ATLUTD_vs_Nashville"
 
