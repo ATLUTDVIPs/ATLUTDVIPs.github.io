@@ -2585,3 +2585,106 @@ article h2 {
     max-width: none !important;
     max-height: none !important;
 }
+
+// ###########################################################################
+// ATLUTD VIPs - Articles List Filters (match Queue controls)
+// ###########################################################################
+
+.Articles-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0;
+    align-items: flex-end;
+}
+
+.Articles-controls label {
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.Articles-controls select,
+.Articles-controls input {
+    padding: 0.35rem 0.5rem;
+}
+
+.Articles-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 1rem 0 1.25rem;
+}
+
+.Articles-pill {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.Articles-muted {
+    opacity: 0.75;
+    font-size: 0.9rem;
+}
+
+.Articles-small {
+    font-size: 0.9rem;
+}
+
+/* Search label grows */
+.Articles-controls label[ for="Filter_Search"] {
+    flex: 1 1 320px;
+}
+
+
+
+/* Clear button – subtle, secondary */
+.Articles-clear {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 4px;
+
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    color: #444;
+
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.Articles-clear:hover {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+/* Keep Search input + Clear on one line */
+.Articles-search-group {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    width: 100%;
+}
+
+/* Let input take remaining space */
+.Articles-search-group #Filter_Search {
+    flex: 1 1 auto;
+    min-width: 320px;
+    /* bump if you want */
+}
+
+/* Keep Search input + Clear on one line */
+.Articles-search-group {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    width: 100%;
+}
+
+/* Let input take remaining space */
+.Articles-search-group #Filter_Search {
+    flex: 1 1 auto;
+    min-width: 320px;  /* bump if you want */
+}

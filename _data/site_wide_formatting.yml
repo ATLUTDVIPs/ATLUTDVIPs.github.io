@@ -51,6 +51,57 @@ bold:
   - US Soccer
   - NISA
   - Memphis 901
+  - Fulham
+  - FC Dallas
+  - AFC Bournemouth
+  - Bournemouth
+  - Rangers
+  - Scottish Premiership
+  - Hibernian
+  - ECNL
+  - Gabriel Heinze
+  - Ballon d'Or
+  - Ballon d’Or
+  - NWSLPA
+  - NWSL Players Association
+  - Newell’s Old Boys
+  - Club Necaxa
+  - Necaxa
+  - Liga MX
+  - U-22 Initiative
+  - Sandvikens IF
+  - Allsvenskan
+  - Superettan
+  - Nashville SC
+  - Nashville
+  - Huntsville City FC
+  - Huntsville City
+  - Peñarol
+  - U.S. Open Cup
+  - US Open Cup
+  - Nacional
+  - Defensor Sporting
+  - Danubio
+  - Wanderers
+  - Cerro
+  - Liverpool
+  - River Plate
+  - Racing Club
+  - Racing
+  - Progreso
+  - Miramar Misiones
+  - Brøndby
+  - Auckland FC
+  - San Lorenzo
+  - Shamrock Rovers
+  - UEFA Conference League
+  - UEFA
+  - Club América
+  - Club Tijuana
+  - Xolos
+  - Rhode Island FC
+
+
 
 italics:
   - "The Athletic"
@@ -58,6 +109,11 @@ italics:
   - "Soccer Down Here"
   - "ATLUTD FanTV"
   - "Georgia Public Broadcasting"
+  - ESPN FC
+  - ESPN
+  - Guardian
+  - SportsPro Media
+  - FBref
 
 replace:
   - from: "teh"
