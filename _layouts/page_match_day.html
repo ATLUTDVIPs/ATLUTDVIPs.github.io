@@ -3,6 +3,8 @@ layout: default
 format: post
 ---
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
 <div class="row t30">
 	<div class="
 		{% if page.sidebar == NULL %}
@@ -11,7 +13,7 @@ format: post
 			medium-9 columns
 		{% endif %}
 		{% if page.sidebar == "left" %} medium-push-3 {% endif %} ">
-		
+
 		<article itemscope itemtype="http://schema.org/Article">
 			<header class="article-header">
 				<div class="categories">
@@ -92,7 +94,6 @@ format: post
 					</figure>
 				{% endif %}
 
-
 			</header>
 
 			<!-- Perform site-wide formatting -->
@@ -126,7 +127,12 @@ format: post
 			{% if page.comments == true %}
 				{% include _comments.html %}
 			{% endif %}
-		</article>
+
+            {% if page.opponent_id %}
+                {% include match_day_vs_box.html %}
+            {% endif %}
+
+        </article>
 	</div><!-- /.medium-8.columns -->
 
 
@@ -143,4 +149,9 @@ format: post
 		{% include _sidebar.html %}
 	</div><!-- /.medium-4.columns -->
 	{% endif %}
+
 </div><!-- /.row -->
+
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="{{ '/assets/js/match_day_vs_box.js' | relative_url }}"></script>

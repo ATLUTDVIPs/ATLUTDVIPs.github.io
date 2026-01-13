@@ -8,21 +8,31 @@ format: post
 	{% include syndication_notice.html %}
 
 	{% if page.image.title %}
-	<figure class="article-hero">
-		<img src="{{ site.urlimg }}{{ page.image.title }}" width="970" alt="{{ page.title | escape_once }}"
-			itemprop="image">
-	
-		{% if page.image.caption_url and page.image.caption %}
-		<figcaption class="text-right">
-			<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
-		</figcaption>
-		{% elsif page.image.caption %}
-		<figcaption class="text-right">
-			{{ page.image.caption }}
-		</figcaption>
-		{% endif %}
-	</figure>
+		<figure class="article-hero{% if page.published == false %} article-hero-draft{% endif %}">
+			<img
+				src="{{ site.urlimg }}{{ page.image.title }}"
+				width="970"
+				alt="{{ page.title | escape_once }}"
+				itemprop="image"
+				class="article-hero-img"
+			>
+
+			{% if page.published == false %}
+				<div class="draft-watermark" aria-hidden="true">DRAFT</div>
+			{% endif %}
+
+			{% if page.image.caption %}
+				<div class="article-hero-caption">
+					{% if page.image.caption_url %}
+						<a href="{{ page.image.caption_url }}">{{ page.image.caption }}</a>
+					{% else %}
+						{{ page.image.caption }}
+					{% endif %}
+				</div>
+			{% endif %}
+		</figure>
 	{% endif %}
+
 
 	<div class="
 		{% if page.sidebar == NULL %}
