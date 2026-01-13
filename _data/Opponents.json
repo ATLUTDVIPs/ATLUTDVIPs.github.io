@@ -808,6 +808,7 @@
     "ID": "MLS_Nashville",
     "Name": "Nashville SC",
     "Current_City": "Nashville",
+    "State": "Tennessee",
     "Current_Country": "United States",
     "Country_Code": "US",
     "Latitude": 36.130082499668994,
