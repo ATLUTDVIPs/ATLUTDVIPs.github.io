@@ -17,7 +17,7 @@ author: ATLUTD_VIPs
 # ---------------------------------------------------------------------------
 
 opponent_id: "MLS_San_Diego_FC"     # Must match ID in site.data.Opponents
-home_away: "Home"               # "Home" | "Away" | "Neutral"
+location:    "Home"               # "Home" | "Away" | "Neutral"
 
 competition: "MLS Regular Season"
 match_date: 2025-09-20

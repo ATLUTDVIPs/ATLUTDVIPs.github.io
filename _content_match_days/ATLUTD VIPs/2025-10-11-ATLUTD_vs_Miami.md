@@ -17,7 +17,7 @@ author: ATLUTD_VIPs
 # ---------------------------------------------------------------------------
 
 opponent_id: "MLS_Inter_Miami"     # Must match ID in site.data.Opponents
-home_away: "Away"               # "Home" | "Away" | "Neutral"
+location:    "Away"               # "Home" | "Away" | "Neutral"
 
 competition: "MLS Regular Season"
 match_date: 2025-10-11
