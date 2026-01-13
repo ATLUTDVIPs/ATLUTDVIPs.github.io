@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_match_day
 #
 # Content
 #
@@ -11,8 +11,63 @@ categories:
   - GameDay
 tags:
 author: ATLUTD_VIPs
-opponent_id: "MLS_New_England"  # Matches the ID in Opponents.json
-location: "Away"                # [ "Home", "Away", "Neutral" ]
+
+# ---------------------------------------------------------------------------
+# Match Day metadata (used by match_day_vs_box.html)
+# ---------------------------------------------------------------------------
+
+opponent_id: "MLS_New_England"     # Must match ID in site.data.Opponents
+home_away: "Away"               # "Home" | "Away" | "Neutral"
+
+competition: "MLS Regular Season"
+match_date: 2025-09-27
+match_label: "Final"
+
+# ---------------------------------------------------------------------------
+# Score information
+# ---------------------------------------------------------------------------
+
+score:
+  for: 0
+  against: 2
+
+# Optional – only displayed if BOTH values exist
+pens:
+  for:
+  against:
+
+# ---------------------------------------------------------------------------
+# Key match events
+# - type is looked up in emoji_dict.json (case-sensitive!)
+# - player and minute are free text
+# ---------------------------------------------------------------------------
+
+key_events:
+   for:
+      - type: Yellow Card
+        player: "Stian Gregersen"
+        minute: 49
+      - type: Yellow Card
+        player: "Pedro Amador"
+        minute: 78
+
+
+   against:
+      - type: Yellow Card
+        player: "Brayan Ceballos"
+        minute: 10
+      - type: Yellow Card
+        player: "Allan Oyirwoth"
+        minute: 46
+      - type: Yellow Card
+        player: "William Sands"
+        minute: 70
+      - type: Goal
+        player: "Dor Turgeman"
+        minute: 72
+      - type: Goal
+        player: "Leonardo Campana"
+        minute: 75
 
 image_dir: "2025-09-27-ATLUTD_vs_New_England"
 

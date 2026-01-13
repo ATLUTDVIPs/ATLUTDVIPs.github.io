@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_match_day
 #
 # Content
 #
@@ -11,8 +11,56 @@ categories:
   - GameDay
 tags:
 author: ATLUTD_VIPs
-opponent_id: "MLS_Inter_Miami"  # Matches the ID in Opponents.json
-location: "Away"                # [ "Home", "Away", "Neutral" ]
+
+# ---------------------------------------------------------------------------
+# Match Day metadata (used by match_day_vs_box.html)
+# ---------------------------------------------------------------------------
+
+opponent_id: "MLS_Inter_Miami"     # Must match ID in site.data.Opponents
+home_away: "Away"               # "Home" | "Away" | "Neutral"
+
+competition: "MLS Regular Season"
+match_date: 2025-10-11
+match_label: "Final"
+
+# ---------------------------------------------------------------------------
+# Score information
+# ---------------------------------------------------------------------------
+
+score:
+  for: 0
+  against: 4
+
+# Optional – only displayed if BOTH values exist
+pens:
+  for:
+  against:
+
+# ---------------------------------------------------------------------------
+# Key match events
+# - type is looked up in emoji_dict.json (case-sensitive!)
+# - player and minute are free text
+# ---------------------------------------------------------------------------
+
+key_events:
+   for:
+
+
+   against:
+      - type: Goal
+        player: "Lionel Messi"
+        minute: 39
+      - type: Goal
+        player: "Jordi Alba"
+        minute: 52
+      - type: Goal
+        player: "Luis Suárez"
+        minute: 61
+      - type: Goal
+        player: "Lionel Messi"
+        minute: 87
+
+
 
 image_dir: "2025-10-11-ATLUTD_vs_Miami"
 

@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: page_match_day
 #
 # Content
 #
-subheadline: "Game Day"
+subheadline: ""
 title: "Set Piece, Shot Stopping, and Sheer Nerve"
 teaser: "2025-08-30 - ATLUTD vs Nashville"
 categories:
@@ -11,8 +11,45 @@ categories:
   - GameDay
 tags:
 author: ATLUTD_VIPs
-opponent_id: "MLS_Nashville"  # Matches the ID in Opponents.json
-location: "Away"              # [ "Home", "Away", "Neutral" ]
+
+# ---------------------------------------------------------------------------
+# Match Day metadata (used by match_day_vs_box.html)
+# ---------------------------------------------------------------------------
+
+opponent_id: "MLS_Nashville"     # Must match ID in site.data.Opponents
+home_away: "Away"               # "Home" | "Away" | "Neutral"
+
+competition: "MLS Regular Season"
+match_date: 2025-08-30
+match_label: "Final"
+
+# ---------------------------------------------------------------------------
+# Score information
+# ---------------------------------------------------------------------------
+
+score:
+  for: 1
+  against: 0
+
+# Optional – only displayed if BOTH values exist
+pens:
+  for:
+  against:
+
+# ---------------------------------------------------------------------------
+# Key match events
+# - type is looked up in emoji_dict.json (case-sensitive!)
+# - player and minute are free text
+# ---------------------------------------------------------------------------
+
+key_events:
+  for:
+    - type: Goal
+      player: "Ronald Hernández"
+      minute: 24
+
+  against:
+
 
 
 image_dir: "2025-08-30-ATLUTD_vs_Nashville"
@@ -37,6 +74,8 @@ published: true
 
 There was a different energy about Atlanta in Nashville, even before the first whistle. Alzate slid in alongside Slisz, Miggy returned to the right, Thiaré led the line, and Hibbert kept his place in goal. The stakes were heavy — playoff hopes dangling by a thread — and the expectation was simple: survive the pressure, then make your moment.
 
+---
+
 ## First Half ##
 
 From kickoff, Atlanta defended narrow and pressed in waves, forcing Nashville to play around rather than through. Early corners for the hosts hinted at what was coming, but Atlanta’s back line handled the first salvo while the front three harried every touch. Alzate, on his first start, looked calm in traffic; Hernández kept finding space wide, and Luke Brennan ran at his man without hesitation. Miranchuk and Miggy nearly found the early breakthrough, and a Thiaré flick to spring Brennan underlined Atlanta’s direct intent.
@@ -53,6 +92,8 @@ The goal changed the tide. Atlanta eased the line of engagement, Nashville grew 
 <hr/>
 Halftime told two truths at once: Atlanta had earned the opener with organization and bite; Nashville had wrested control afterwards. The question was which version of Atlanta would emerge — front-foot brave or bunker and bend. The second half began with composure, then tilted quickly. Surridge hit the post from a perfect ball, and only Hibbert’s fingertips kept it off the line. He would go on to make save after save, some routine, some reflex, all of them essential.
 
+--- 
+
 ### Second Half  ###
 
 Slisz and Alzate continued to connect passes and settle the middle, but strain crept in. Brennan couldn’t connect with his final ball, Amador’s touch betrayed him under the press, and mounting fouls turned into a wave of bookings. Thiaré’s press turned into cramping legs, a near-miss on a second yellow, and finally the hook — Togashi on, Lennon on, and a reset of the lanes. Deila pushed Muyumba higher than Alzate had been, looking for a release valve, but the pattern remained: Nashville’s territory, Atlanta’s resolve.
@@ -65,6 +106,8 @@ Six minutes of stoppage time felt like sixty. Atlanta threw bodies at everything
    file="2025-08-30 - Hibbert 1.jpg"
    caption="Atlanta United goalkeeper Jayden Hibbert #42 during the match against Nashville SC at GEODIS Park in Nashville, TN on Saturday August 30, 2025. (Photo by Mitch Martin/Atlanta United)"
 %}
+
+---
 
 ## Post Game ## 
 

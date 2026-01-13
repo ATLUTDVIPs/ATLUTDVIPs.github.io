@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_match_day
 #
 # Content
 #
@@ -11,8 +11,53 @@ categories:
   - GameDay
 tags:
 author: ATLUTD_VIPs
-opponent_id: "MLS_San_Diego_FC"  # Matches the ID in Opponents.json
-location: "Home"                 # [ "Home", "Away", "Neutral" ]
+
+# ---------------------------------------------------------------------------
+# Match Day metadata (used by match_day_vs_box.html)
+# ---------------------------------------------------------------------------
+
+opponent_id: "MLS_San_Diego_FC"     # Must match ID in site.data.Opponents
+home_away: "Home"               # "Home" | "Away" | "Neutral"
+
+competition: "MLS Regular Season"
+match_date: 2025-09-20
+match_label: "Final"
+
+# ---------------------------------------------------------------------------
+# Score information
+# ---------------------------------------------------------------------------
+
+score:
+  for: 1
+  against: 1
+
+# Optional – only displayed if BOTH values exist
+pens:
+  for:
+  against:
+
+# ---------------------------------------------------------------------------
+# Key match events
+# - type is looked up in emoji_dict.json (case-sensitive!)
+# - player and minute are free text
+# ---------------------------------------------------------------------------
+
+key_events:
+   for:
+      - type: Goal
+        player: "Miguel Almirón"
+        minute: 61
+      - type: Yellow Card
+        player: "Miguel Almirón"
+        minute: 90
+
+   against:
+      - type: Yellow Card
+        player: "Hirving Lozano"
+        minute: 6
+      - type: Goal
+        player: "Anders Dreyer"
+        minute: 32 
 
 
 image_dir: "2025-09-20-ATLUTD_vs_San_Diego"

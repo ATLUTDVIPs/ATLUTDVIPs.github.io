@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_match_day
 #
 # Content
 #
@@ -11,8 +11,71 @@ categories:
   - GameDay
 tags:
 author: ATLUTD_VIPs
-opponent_id: "MLS_Columbus_Crew"  # Matches the ID in Opponents.json
-location: "Home"                  # [ "Home", "Away", "Neutral" ]
+
+# ---------------------------------------------------------------------------
+# Match Day metadata (used by match_day_vs_box.html)
+# ---------------------------------------------------------------------------
+
+opponent_id: "MLS_Columbus_Crew"     # Must match ID in site.data.Opponents
+home_away: "Home"               # "Home" | "Away" | "Neutral"
+
+competition: "MLS Regular Season"
+match_date: 2025-09-13
+match_label: "Final"
+
+# ---------------------------------------------------------------------------
+# Score information
+# ---------------------------------------------------------------------------
+
+score:
+  for: 4
+  against: 5
+
+# Optional – only displayed if BOTH values exist
+pens:
+  for:
+  against:
+
+# ---------------------------------------------------------------------------
+# Key match events
+# - type is looked up in emoji_dict.json (case-sensitive!)
+# - player and minute are free text
+# ---------------------------------------------------------------------------
+
+key_events:
+   for:
+      - type: Goal
+        player: "Miguel Almirón"
+        minute: 45+3
+      - type: Goal
+        player: "Pedro Amador"
+        minute: 45
+      - type: Goal
+        player: "Jamal Thiaré"
+        minute: 50
+      - type: Goal
+        player: "Jamal Thiaré"
+        minute: 88
+
+   against:
+      - type: Goal
+        player: "Diego Rossi"
+        minute: 14 
+      - type: Goal
+        player: "Diego Rossi"
+        minute: 16 
+      - type: Goal
+        player: "Wessam Abou Ali"
+        minute: 25
+      - type: Goal
+        player: "Marcelo Herrera"
+        minute: 29 
+      - type: Goal
+        player: "Diego Rossi"
+        minute: 39 
+      - type: Yellow Card
+        player: "Yevhen Cheberko"
+        minute: 45+2
 
 image_dir: "2025-09-13-ATLUTD_vs_Columbus"
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page_match_day
 #
 # Content
 #
@@ -11,8 +11,57 @@ categories:
   - GameDay
 tags:
 author: ATLUTD_VIPs
-opponent_id: "MLS_DC_United"  # Matches the ID in Opponents.json
-location: "Home"              # [ "Home", "Away", "Neutral" ]
+
+# ---------------------------------------------------------------------------
+# Match Day metadata (used by match_day_vs_box.html)
+# ---------------------------------------------------------------------------
+
+opponent_id: "MLS_DC_United"     # Must match ID in site.data.Opponents
+home_away: "Home"               # "Home" | "Away" | "Neutral"
+
+competition: "MLS Regular Season"
+match_date: 2025-10-18
+match_label: "Final"
+
+# ---------------------------------------------------------------------------
+# Score information
+# ---------------------------------------------------------------------------
+
+score:
+  for: 1
+  against: 1
+
+# Optional – only displayed if BOTH values exist
+pens:
+  for:
+  against:
+
+# ---------------------------------------------------------------------------
+# Key match events
+# - type is looked up in emoji_dict.json (case-sensitive!)
+# - player and minute are free text
+# ---------------------------------------------------------------------------
+
+key_events:
+   for:
+      - type: Goal
+        player: "Miguel Almirón"
+        minute: 3
+
+   against:
+      - type: Yellow Card
+        player: "Lukas MacNaughton"
+        minute: 37
+      - type: Yellow Card
+        player: "Caden Clark"
+        minute: 43
+      - type: Yellow Card
+        player: "Jackson Hopkins"
+        minute: 64
+      - type: Goal
+        player: "Gabriel Pirani"
+        minute: 66
+
 
 image_dir: "2025-10-18-ATLUTD_vs_DC_United"
 
