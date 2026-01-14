@@ -2756,6 +2756,8 @@ article h2 {
     opacity: 0.45;
     cursor: default;
 }
+
+
 // ###########################################################################
 // ATLUTD VIPs - Match Day vs box
 // ###########################################################################
@@ -2991,44 +2993,55 @@ Row 2:
 
     .MatchDay-TeamName {
         font-size: 28px;
+        text-align: center;
     }
 
     .MatchDay-TeamCrest {
         width: 52px;
     }
 
-    // Stack into one column
     .MatchDay-VsRow {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto auto auto auto;
         row-gap: 12px;
+        column-gap: 0;
     }
 
-    .MatchDay-TeamNameLeft {
+    /* 1) Status */
+    .MatchDay-VsCenterTop {
         grid-column: 1;
         grid-row: 1;
         justify-self: center;
         text-align: center;
     }
 
-    .MatchDay-VsCenterTop {
+    /* 2) Score */
+    .MatchDay-VsCenter {
         grid-column: 1;
         grid-row: 2;
+        justify-self: center;
+        min-width: 0;
     }
 
-    .MatchDay-TeamNameRight {
+    /* 3) Left team name */
+    .MatchDay-TeamNameLeft {
         grid-column: 1;
         grid-row: 3;
         justify-self: center;
         text-align: center;
     }
 
+    /* 4) Left crest */
     .MatchDay-TeamCrestWrapLeft {
         grid-column: 1;
         grid-row: 4;
         justify-content: center;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
     }
 
+    /* 5) Left events */
     .MatchDay-TeamScorersLeft {
         grid-column: 1;
         grid-row: 5;
@@ -3036,12 +3049,16 @@ Row 2:
         text-align: center;
     }
 
-    .MatchDay-VsCenter {
+    /* 6) Right team name */
+    .MatchDay-TeamNameRight {
         grid-column: 1;
         grid-row: 6;
-        min-width: 0;
+        justify-self: center;
+        text-align: center;
+        margin-top: 6px;
     }
 
+    /* 7) Right events */
     .MatchDay-TeamScorersRight {
         grid-column: 1;
         grid-row: 7;
@@ -3049,14 +3066,18 @@ Row 2:
         text-align: center;
     }
 
+    /* Show right crest directly under right events (recommended) */
     .MatchDay-TeamCrestWrapRight {
-        // optional - if you want the right crest shown under right events:
-        // grid-column: 1;
-        // grid-row: 8;
-        // justify-content: center;
-
-        display: none; // cleaner mobile: one crest is enough
+        grid-column: 1;
+        grid-row: 8;
+        justify-content: center;
+        display: flex;
+        width: auto;
     }
+
+    /* If you want to keep 7 rows, add this to MatchDay-VsRow:
+       grid-template-rows: auto auto auto auto auto auto auto auto;
+    */
 }
 
 
@@ -3289,3 +3310,71 @@ Row 2:
         animation: none;
     }
 }
+
+
+
+// ###########################################################################
+// Article Layout - Right Sidebar (desktop) / Stacked (mobile)
+// ###########################################################################
+.Article-Layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 18px;
+    align-items: start;
+}
+
+.Article-Main {
+    min-width: 0; // prevents overflow in grid
+}
+
+.Article-Sidebar {
+    position: sticky;
+    top: 18px;
+}
+
+.Article-SidebarBlock {
+    background: $grey-15;
+    border-radius: 14px;
+    padding: 14px 14px;
+    margin-bottom: 14px;
+}
+
+.Article-SidebarTitle {
+    font-weight: 700;
+    color: $ci-3;
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+}
+
+.Article-SidebarList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Article-SidebarList li {
+    margin: 8px 0;
+}
+
+.Article-AdSlotInner {
+    border-radius: 12px;
+    background: $grey-10;
+    padding: 12px 12px;
+    min-height: 250px; // placeholder; ad units will override naturally
+}
+
+.is-hidden {
+    display: none;
+}
+
+// Mobile - stack sidebar below content
+@media (max-width: 900px) {
+    .Article-Layout {
+        grid-template-columns: 1fr;
+    }
+
+    .Article-Sidebar {
+        position: static;
+    }
+}
+
