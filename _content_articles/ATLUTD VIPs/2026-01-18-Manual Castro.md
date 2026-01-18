@@ -3,8 +3,8 @@ layout: page
 #
 # Content
 #
-subheadline: ""      # Subheadline = label:  what / where / when
-title: "Manuel Castro"               # 
+subheadline: "Castro arrives in Caxias do Sul during Juventude’s rebuild"      # Subheadline = label:  what / where / when
+title: "Manuel Castro transfers to Juventude"               # 
 teaser: "Announcing himself in style"      # Teaser = pitch: why should I care
 categories:
   - ATLUTD
