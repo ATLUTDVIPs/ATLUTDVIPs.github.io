@@ -13,7 +13,7 @@ blockquote {
     padding: 1rem 1.5rem;
     
     /* visual */
-    border-left: 6px solid $Quote_Block;
+    border-left: 5px solid $Quote_Block;
     background: rgba(0, 0, 0, 0.03);   /* light dark-on-light wash */
     color: $grey-11;
 
@@ -24,6 +24,9 @@ blockquote p {
     font-style: italic;
     color: $grey-10;
     margin-bottom: 0.75rem;
+    hyphens: none;
+    word-break: normal;
+    overflow-wrap: normal;
 }
 
 /* kill the big quote arrows */
@@ -42,6 +45,11 @@ blockquote cite {
     color: $grey-9;
     color: $ci-5;
     opacity: 0.85;
+    //margin-left: 96px; // 80px image + ~16px spacing
+}
+
+blockquote .QuoteBlock-media~cite {
+    margin-left: calc( 80px + 1rem ); // 80px image + ~16px spacing
 }
 
 /* no extra dash before cite */
@@ -49,6 +57,70 @@ blockquote cite:before {
     content: "";
 }
 
+.blockquote_important {
+    max-width: 100%;
+    font-size: 1.1rem;
+
+    padding: 1.25rem 1.75rem;
+    border-left-width: 8px;  // thicker left border
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.blockquote_important p {
+    font-size: 1.1rem;
+}
+
+.blockquote_important cite {
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+}
+
+.blockquote_important cite strong {
+    font-weight: 600;
+}
+
+.blockquote_important cite span {
+    opacity: 0.8;
+}
+
+blockquote .QuoteBlock-media {
+    float: left;
+
+    /* pull toward the spine and up */
+    margin: -0.25rem 1rem 0.5rem -0.5rem;
+}
+
+blockquote .QuoteBlock-media img {
+    height: 80px;
+    width: 80px;
+
+    border-radius: 50%;
+    object-fit: cover;  // forces the image to fill the box
+    object-position: center;
+    display: block;
+}
+
+/* Clear the float so cite doesn't get weird wrapping */
+blockquote::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.blockquote_important cite .QuoteCite-Speaker,
+.blockquote_important cite .QuoteCite-Source {
+    display: block;
+}
+
+.blockquote_important cite .QuoteCite-Speaker {
+    font-weight: 600;
+    opacity: 1;
+}
+
+.blockquote_important cite .QuoteCite-Source {
+    opacity: 0.8;
+    //margin-top: 0.05rem;
+}
 
 // ###########################################################################
 // ATLUTD VIPs buttons & links 
@@ -2548,7 +2620,7 @@ table.vip-club-timeline .vip-league-logo {
 }
 
 .syndication-logo img {
-    height:  30px;
+    height:  40px;
     width:   auto;
     display: block;
 }
@@ -3164,152 +3236,6 @@ Row 2:
     text-decoration: underline;
 }
 
-
-// ###########################################################################
-// Transfer Ticker (marquee style)
-// ###########################################################################
-.TransferTicker {
-    position: relative;
-    border-radius: 14px;
-    background: $grey-15;
-    color: $ci-2;
-    overflow: hidden;
-    padding: 10px 0;
-}
-
-.TransferTicker-Viewport {
-    overflow: hidden;
-}
-
-.TransferTicker-Track {
-    display: inline-flex;
-    gap: 40px;
-    align-items: center;
-
-    /* keep ticker continuous */
-    white-space: nowrap;
-
-    will-change: transform;
-    animation-name: TransferTicker_Scroll;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-duration: var(--TransferTicker_Duration, 38s);
-
-    padding: 0 20px; // you can keep 70px if you want, but not required now
-}
-
-.TransferTicker:hover .TransferTicker-Track {
-    animation-play-state: paused;
-}
-
-.TransferTicker-Item,
-.TransferTicker-Item:link,
-.TransferTicker-Item:visited {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-
-    /* IMPORTANT: let content expand vertically */
-    height: auto; // was 50px
-    min-height: 50px; // keeps your “pill” baseline
-    padding: 10px 14px; // give multi-line text room
-
-    border-radius: 999px;
-    //background: rgba(255, 255, 255, 0.03);
-    background: $grey-14;
-
-    color: $ci-2 !important;
-    text-decoration: none !important;
-    opacity: 0.95;
-
-    white-space: nowrap;
-    flex-wrap: nowrap;
-    overflow: visible; /* IMPORTANT: do not clip text */
-
-    /* Prevent a pill from becoming wider than the viewport */
-    max-width: calc(100vw - 80px);
-}
-
-
-.TransferTicker-Item:hover,
-.TransferTicker-Item:focus,
-.TransferTicker-Item:active {
-    background: rgba(255, 255, 255, 0.06);
-    color: $ci-2 !important;
-    text-decoration: none !important;
-    opacity: 1;
-}
-
-
-.TransferTicker-Img {
-    height: 50px;
-    width: auto;
-    border-radius: 999px;
-    //object-fit: cover;
-    display: block;
-    flex: 0 0 auto;
-}
-
-.TransferTicker-Player,
-.TransferTicker-Arrow,
-.TransferTicker-Club,
-.TransferTicker-Meta {
-    font-weight: 800;
-    letter-spacing: 0.1px;
-    line-height: 1;
-    white-space: nowrap;
-}
-.TransferTicker-Fade {
-    //position: absolute;
-    //top: 0;
-    //bottom: 0;
-    //width: 64px;
-    //z-index: 2;
-    //pointer-events: none;
-    display: none;
-}
-
-.TransferTicker-FadeLeft {
-    left: 0;
-    background: linear-gradient(90deg, $grey-15 0%, rgba(0, 0, 0, 0) 100%);
-}
-
-.TransferTicker-FadeRight {
-    right: 0;
-    background: linear-gradient(270deg, $grey-15 0%, rgba(0, 0, 0, 0) 100%);
-}
-
-.TransferTicker-Crest {
-    height: 50px;
-    width: auto;
-    //object-fit: contain;
-    display: block;
-    position: static;
-    margin: 0;
-    flex: 0 0 auto;
-    opacity: 0.95;
-}
-
-@keyframes TransferTicker_Scroll {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-50%);
-    }
-}
-
-// Reduced motion: no animation, allow manual horizontal scroll
-@media (prefers-reduced-motion: reduce) {
-    .TransferTicker-Viewport {
-        overflow-x: auto;
-    }
-
-    .TransferTicker-Track {
-        animation: none;
-    }
-}
 
 
 
