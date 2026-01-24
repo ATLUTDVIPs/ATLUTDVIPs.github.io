@@ -1,4 +1,5 @@
 ---
+
 layout: default
 format: post
 ---
@@ -7,7 +8,7 @@ format: post
 
 <div class="row t30">
 	<div class="
-		{% if page.sidebar == NULL %}
+		{% if page.sidebar == NIL %}
 			medium-12 columns
 		{% else %}
 			medium-9 columns
@@ -71,7 +72,7 @@ format: post
 				{% if page.image.title %}
 					<figure class="article-hero{% if page.published == false %} article-hero-draft{% endif %}">
 						<img
-							src="{{ site.urlimg }}{{ page.image.title }}"
+							src="{{ site.urlimg }}{{ page.image.title }}?v={{ site.github.build_revision }}"
 							width="970"
 							alt="{{ page.title | escape_once }}"
 							itemprop="image"
@@ -148,6 +149,12 @@ format: post
 	<div class="medium-3 columns">
 		{% include _sidebar.html %}
 	</div><!-- /.medium-4.columns -->
+	{% endif %}
+
+	{% if page.sidebar == "ads_right" %}
+	<div class="medium-3 columns">
+		{% include ads/Sidebar_Articles.html %}
+	</div><!-- /.medium-3.columns -->
 	{% endif %}
 
 </div><!-- /.row -->

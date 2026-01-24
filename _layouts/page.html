@@ -69,7 +69,7 @@ format: post
 				{% if page.image.title %}
 					<figure class="article-hero{% if page.published == false %} article-hero-draft{% endif %}">
 						<img
-							src="{{ site.urlimg }}{{ page.image.title }}"
+							src="{{ site.urlimg }}{{ page.image.title }}?v={{ site.github.build_revision }}"
 							width="970"
 							alt="{{ page.title | escape_once }}"
 							itemprop="image"
