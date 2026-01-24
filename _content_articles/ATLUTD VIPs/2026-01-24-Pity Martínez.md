@@ -20,9 +20,9 @@ image_dir: "2026-01-23-Pity Martinez"
 #
 #header: no
 image:
-    title: 2026-01-23-Pity Martinez/G_Wa8naWAAIff5y.jpg
-    thumb: 2026-01-23-Pity Martinez/G_Wa8naWAAIff5y.jpg
-    homepage: 2026-01-23-Pity Martinez/G_Wa8naWAAIff5y.jpg
+    title: 2026-01-23-Pity Martinez/G_Wa8naWAAIff5y-wide.jpg
+    thumb: 2026-01-23-Pity Martinez/G_Wa8naWAAIff5y-wide.jpg
+    homepage: 2026-01-23-Pity Martinez/G_Wa8naWAAIff5y-wide.jpg
     caption: "( Photo by Club Atlético Tigre )"
 #    caption_url: 
 mediaplayer: false
