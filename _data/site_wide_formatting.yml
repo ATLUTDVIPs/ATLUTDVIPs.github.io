@@ -115,17 +115,26 @@ bold:
   - Vancouver Whitecaps
   - Sporting Kansas City
   - Sporting KC
+  - USL League One
   - USL League Two
   - Millonarios FC
   - Millonarios
   - Juventude
   - Série A
   - Série B
+  - Charlotte Independence
+  - Fort Wayne FC
+  - FC Barcelona
+  - Barcelona
+  - La Liga
+  - Club Atlético Tigre
+  - Silverbacks
 
 italics:
   - The Athletic
   - "Five Stripes"
   - Soccer Down Here
+  - SDH
   - ATLUTD FanTV
   - Georgia Public Broadcasting
   - ESPN FC
@@ -133,6 +142,8 @@ italics:
   - Guardian
   - SportsPro Media
   - FBref
+  - Five Stripe Final
+  - Soccer in the Streets
 
 replace:
   - from: "teh"

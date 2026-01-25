@@ -202,15 +202,48 @@
 
 			// 2) Bold + italics next
 			// THESE TWO LINES ARE WHAT YOU ASKED ABOUT:
-            Wrap_Terms_In_Text_Node( Text_Node, Bold_Terms, "strong" );
+            //Wrap_Terms_In_Text_Node( Text_Node, Bold_Terms, "strong" );
 
             // If the node got replaced/removed by the bold step, don't try italics on it
-            if ( Text_Node.parentNode ) {
-                Wrap_Terms_In_Text_Node( Text_Node, Italic_Terms, "em" );
-            }
+            //if ( Text_Node.parentNode ) {
+            //    Wrap_Terms_In_Text_Node( Text_Node, Italic_Terms, "em" );
+            //}
+
+			// 2) Bold pass
+			Apply_Wrap_Pass( Container, Bold_Terms, "strong" );
+
+			// 3) Italics pass (runs on the post-bold DOM)
+			Apply_Wrap_Pass( Container, Italic_Terms, "em" );
 
 		}
 	}
+
+	function Apply_Wrap_Pass( Container, Terms, Tag_Name ) {
+
+		const Walker = document.createTreeWalker(
+			Container,
+			NodeFilter.SHOW_TEXT,
+			null,
+			false
+		);
+
+		const Text_Nodes = [ ];
+		let Current;
+
+		while ( ( Current = Walker.nextNode( ) ) ) {
+			Text_Nodes.push( Current );
+		}
+
+		for ( const Text_Node of Text_Nodes ) {
+
+			if ( Should_Skip_Text_Node( Text_Node ) ) {
+				continue;
+			}
+
+			Wrap_Terms_In_Text_Node( Text_Node, Terms, Tag_Name );
+		}
+	}
+
 
     function Init( ) {
 
