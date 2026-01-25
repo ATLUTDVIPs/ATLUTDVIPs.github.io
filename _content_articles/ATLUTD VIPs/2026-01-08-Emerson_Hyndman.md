@@ -25,7 +25,7 @@ image:
     caption: "( Photo by ATLUTD )"
 mediaplayer: false
 
-status: Waiting
+status: Published
 priority: High
 notes: >
   Written. Waiting on response from ECNL team on role confirmation / quotes.
