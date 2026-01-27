@@ -33,6 +33,8 @@ dates:
     date: "2025-12-29"
   - label: "Follow-up"
     date: "2026-01-04"
+  - label: "resposne from Isabel Maza"
+    date: "2026-01-15"
 
 published: true
 ---
@@ -280,7 +282,7 @@ The appointment emphasized process as much as performance. Mears was responsible
 That broader responsibility became formalized the following year. In September 2025, Mears was promoted to **President of Soccer**, expanding his role from the technical area to oversight of the club’s sporting direction. The position placed him in charge of long-term planning across both the women’s program and the club’s future men’s team.
 
 > "I’m thankful for my time as head coach and everything I learned working with our incredible players and staff. Now, in this new role, I’m excited to help guide both our men’s and women’s professional programs and continue building the club’s future."
-> <cite>Mears, ftlutd.com</cite>
+> <cite>Tryone Mears, ftlutd.com</cite>
 
 One of the first major decisions under that expanded remit was structural rather than competitive. **Fort Lauderdale United** announced that the launch of its men’s professional side would be delayed to 2027, citing the need to strengthen infrastructure and foundations before entering competition. The choice prioritized readiness over speed, emphasizing sustainability over timetable.
 
