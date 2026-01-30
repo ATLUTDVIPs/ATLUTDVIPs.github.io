@@ -1260,5 +1260,26 @@
       "Campeones": 0,
       "Other": 0
     }
-  }
-]
+  },
+  {
+    "ID": "USL_Lexington",
+    "Name": "Lexington SC",
+    "Current_City": "Lexington",
+    "State": "Kentucky",
+    "Current_Country": "United States",
+    "Country_Code": "US",
+    "Latitude": 37.9605475548105, 
+    "Longitude": -84.39186587083371,
+    "Thumbnail": "/images/crests/Lexington SC.png",
+    "Stadium": "Lexington SC Stadium",
+    "Matches": {
+      "Friendlies": 1,
+      "MLS": 0,
+      "US_Open_Cup": 0,
+      "Leagues_Cup": 0,
+      "CONCACAF": 0,
+      "AmFamCup": 0,
+      "Campeones": 0,
+      "Other": 0
+    }
+  }]

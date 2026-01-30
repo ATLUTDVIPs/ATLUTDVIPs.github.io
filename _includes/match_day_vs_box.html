@@ -1,3 +1,16 @@
+<!--
+  Match Day venue/map selection:
+
+  1) If page.location_override exists (and provides Latitude/Longitude),
+     use location_override for map + venue display, regardless of page.location.
+
+  2) Else, if page.location == "Home",
+     use Team.json ("1st Team") for map + venue display.
+
+  3) Else (page.location == "Away" or anything else),
+     use Opponents.json (page.opponent_id) for map + venue display.
+-->
+
 {%- assign Emoji_Dict = site.data.emoji_dict -%}
 
 {%- assign Opponent = site.data.Opponents | where: "ID", page.opponent_id | first -%}
@@ -11,11 +24,6 @@
 
 {%- assign Team_Name = Team.Name -%}
 {%- assign Team_Crest = Team.Thumbnail -%}
-
-{%- assign Is_Home = false -%}
-{%- if page.location == "Home" -%}
-  {%- assign Is_Home = true -%}
-{%- endif -%}
 
 {%- assign Left_Name = Team_Name -%}
 {%- assign Left_Crest = Team_Crest -%}
@@ -70,7 +78,10 @@
 {%- assign Right_Key_Events = Right_Event_List | join: "<br />" -%}
 
 {%- comment -%}
-  Map / Venue defaults (Away)
+  Map / Venue defaults:
+  - Start with Opponent (Away/Default)
+  - If Home, switch to Team
+  - If location_override exists, it wins over everything
 {%- endcomment -%}
 
 {%- assign Map_Lat = Opponent.Latitude -%}
@@ -87,11 +98,7 @@
   {%- assign Venue_Is_US = true -%}
 {%- endif -%}
 
-{%- comment -%}
-  Home override: use Team.json coords
-{%- endcomment -%}
-
-{%- if Is_Home -%}
+{%- if page.location == "Home" -%}
   {%- assign Map_Lat = Team.Latitude -%}
   {%- assign Map_Lon = Team.Longitude -%}
   {%- assign Map_Label = Team.Stadium -%}
@@ -105,6 +112,25 @@
   {%- if Team.Country_Code == "US" or Team.Current_Country == "United States" -%}
     {%- assign Venue_Is_US = true -%}
   {%- endif -%}
+{%- endif -%}
+
+{%- assign Location_Override = page.location_override | default: nil -%}
+{%- if Location_Override != nil and Location_Override.Latitude and Location_Override.Longitude -%}
+
+  {%- assign Map_Lat = Location_Override.Latitude -%}
+  {%- assign Map_Lon = Location_Override.Longitude -%}
+  {%- assign Map_Label = Location_Override.Stadium | default: "Match location" -%}
+
+  {%- assign Venue_Name = Location_Override.Stadium | default: Venue_Name -%}
+  {%- assign Venue_City = Location_Override.Current_City | default: Venue_City -%}
+  {%- assign Venue_State = Location_Override.State | default: Venue_State -%}
+  {%- assign Venue_Country = Location_Override.Current_Country | default: Venue_Country -%}
+
+  {%- assign Venue_Is_US = false -%}
+  {%- if Location_Override.Country_Code == "US" or Venue_Country == "United States" -%}
+    {%- assign Venue_Is_US = true -%}
+  {%- endif -%}
+
 {%- endif -%}
 
 <div class="MatchDay-Vs">
