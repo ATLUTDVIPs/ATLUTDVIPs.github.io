@@ -3304,3 +3304,61 @@ Row 2:
     }
 }
 
+
+
+// ###########################################################################
+// Inline image float - wraps text left or right
+// ###########################################################################
+.InlineImage {
+    float: right;
+    margin: 0.35rem 0 0.75rem 1.1rem;
+
+    position: relative;     // <-- required for overlay caption
+    display: block;
+    overflow: hidden;       // <-- keeps caption + image inside rounded corners
+    border-radius: 10px;    // <-- move rounding to the container
+}
+
+.InlineImage--left {
+    float: left;
+    margin: 0.35rem 1.1rem 0.75rem 0;
+}
+
+.InlineImage-Img {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;      // <-- important for height-based mode
+    object-position: center;
+}
+
+.InlineImage-Caption {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+
+    max-width: 90%;
+    padding: 6px 10px;
+    font-size: 0.80rem;
+    line-height: 1.2;
+    hyphens: auto;
+
+    color: $grey-2;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+
+    pointer-events: none;
+}
+
+// Mobile - stop floating so it doesn’t get cramped
+@media ( max-width: 640px ) {
+
+    .InlineImage,
+    .InlineImage--left,
+    .InlineImage--right {
+        float: none;
+        max-width: 100% !important;
+        margin: 0.75rem 0;
+    }
+}
