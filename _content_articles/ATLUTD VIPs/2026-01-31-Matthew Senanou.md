@@ -4,7 +4,7 @@ layout: page
 # Content
 #
 subheadline: "Xavier University standout arrives after a full MLS NEXT Pro season"      # Subheadline = label:  what / where / when
-title: "ATLUTD2 Matthew Senanou"               # 
+title: "ATLUTD2 signs Matthew Senanou"               # 
 teaser: "A 6-foot-4 center back with MLS NEXT Pro experience and a completed collegiate development cycle joins Atlanta’s back line"      # Teaser = pitch: why should I care
 categories:
   - ATLUTD2
