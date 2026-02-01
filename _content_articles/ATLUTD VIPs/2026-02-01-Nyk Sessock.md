@@ -3,9 +3,9 @@ layout: page
 #
 # Content
 #
-subheadline: ""      # Subheadline = label:  what / where / when
+subheadline: "Las Vegas Lights FC sign defender Nyk Sessock"      # Subheadline = label:  what / where / when
 title: "Nyk Sessock signs for Las Vegas Lights FC"               # 
-teaser: ""      # Teaser = pitch: why should I care
+teaser: "The former Atlanta United and Inter Miami II defender arrives in Las Vegas on a contract through 2026 with a club option for 2027."      # Teaser = pitch: why should I care
 categories:
   - ATLUTD
   - Player
