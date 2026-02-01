@@ -1,29 +1,41 @@
-document.addEventListener('DOMContentLoaded', function () {
-  const nodes = document.querySelectorAll('.js-timeago');
+document.addEventListener( 'DOMContentLoaded', function ( ) {
+  const Nodes = document.querySelectorAll( '.js-timeago' );
 
-  nodes.forEach(function (el) {
-    const iso = el.getAttribute('datetime');
-    if (!iso) return;
+  Nodes.forEach( function ( El ) {
+    const Iso = El.getAttribute( 'datetime' );
+    if ( !Iso ) return;
 
-    const then = new Date(iso);
-    const now  = new Date();
-    const diffMs   = now - then;
-    const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+    const Then = new Date( Iso );
+    const Now  = new Date( );
 
-    let text;
+    const Is_Today =
+      Then.getFullYear( ) === Now.getFullYear( ) &&
+      Then.getMonth( ) === Now.getMonth( ) &&
+      Then.getDate( ) === Now.getDate( );
 
-    if (diffDays < 1) {
-      const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
-      if (diffHours < 1) {
-        const diffMins = Math.max(1, Math.floor(diffMs / (1000 * 60)));
-        text = diffMins + ' min ago';
-      } else {
-        text = diffHours + ' hour' + (diffHours === 1 ? '' : 's') + ' ago';
-      }
+    let Text;
+
+    if ( Is_Today ) {
+      Text = 'Today';
     } else {
-      text = diffDays + ' day' + (diffDays === 1 ? '' : 's') + ' ago';
+      const DiffMs   = Now - Then;
+      const DiffDays = Math.floor( DiffMs / ( 1000 * 60 * 60 * 24 ) );
+
+      if ( DiffDays < 1 ) {
+        // This case will mostly only happen if the post is "yesterday" but < 24h ago.
+        // Keep your existing behavior (or change to "Yesterday" if you want).
+        const DiffHours = Math.floor( DiffMs / ( 1000 * 60 * 60 ) );
+        if ( DiffHours < 1 ) {
+          const DiffMins = Math.max( 1, Math.floor( DiffMs / ( 1000 * 60 ) ) );
+          Text = DiffMins + ' min ago';
+        } else {
+          Text = DiffHours + ' hour' + ( DiffHours === 1 ? '' : 's' ) + ' ago';
+        }
+      } else {
+        Text = DiffDays + ' day' + ( DiffDays === 1 ? '' : 's' ) + ' ago';
+      }
     }
 
-    el.textContent = text;
-  });
-});
+    El.textContent = Text;
+  } );
+} );
