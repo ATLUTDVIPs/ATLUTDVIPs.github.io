@@ -26,29 +26,44 @@
     {% endif %}
 
     <div class="syndication-text">
-      <p>
-        {% case page.syndication.relationship %}
-          {% when "republished" %}
-            This article originally appeared on
-          {% when "adapted" %}
-            This article is adapted from an article originally published on
-          {% when "partnership" %}
-            This article was published in partnership with
-          {% else %}
-            This article originally appeared on
-        {% endcase %}
+<p>
+  {% case page.syndication.relationship %}
 
-        <strong>{{ Original_Name }}</strong>
+    {% when "republished" %}
+      This article originally appeared on <strong>{{ Original_Name }}</strong>
+      {% if page.syndication.original_date %}
+        on {{ page.syndication.original_date | date: "%B %-d, %Y" }}
+      {% endif %}
+      {% if Original_Article_Url %}
+        . <a href="{{ Original_Article_Url }}" target="_blank" rel="noopener">Read the original here</a>
+      {% endif %}
 
-        {% if page.syndication.original_date %}
-          on {{ page.syndication.original_date | date: "%B %-d, %Y" }}
-        {% endif %}
+    {% when "adapted" %}
+      This article is adapted from reporting originally published by <strong>{{ Original_Name }}</strong>
+      {% if page.syndication.original_date %}
+        on {{ page.syndication.original_date | date: "%B %-d, %Y" }}
+      {% endif %}
+      {% if Original_Article_Url %}
+        . <a href="{{ Original_Article_Url }}" target="_blank" rel="noopener">Read the original version</a>
+      {% endif %}
 
-        {% if Original_Article_Url %}
-          .  <a href="{{ Original_Article_Url }}" target="_blank" rel="noopener">Read the original here</a>
-        {% endif %}
-        
-      </p>
+    {% when "partnership" %}
+      This article was produced in partnership with <strong>{{ Original_Name }}</strong>
+      {% if Original_Article_Url %}
+        . <a href="{{ Original_Article_Url }}" target="_blank" rel="noopener">View the joint publication here</a>
+      {% endif %}
+
+    {% else %}
+      This article originally appeared on <strong>{{ Original_Name }}</strong>
+      {% if page.syndication.original_date %}
+        on {{ page.syndication.original_date | date: "%B %-d, %Y" }}
+      {% endif %}
+      {% if Original_Article_Url %}
+        . <a href="{{ Original_Article_Url }}" target="_blank" rel="noopener">Read the original here</a>
+      {% endif %}
+
+  {% endcase %}
+</p>
     </div>
 
   </div>
