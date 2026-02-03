@@ -5,7 +5,7 @@ layout: page
 #
 subheadline: "Former Atlanta United goalkeeper joins Tulsa ahead of 2026 USL season"      # Subheadline = label:  what / where / when
 title: "Alex Tambakis signs for FC Tulsa"               # 
-teaser: Atlanta United’s first-ever signing continues his USL career in Tulsa, joining a club that leaned heavily on defensive organization in 2025."      # Teaser = pitch: why should I care
+teaser: "Atlanta United’s first-ever signing continues his USL career in Tulsa, joining a club that leaned heavily on defensive organization in 2025." # Teaser = pitch: why should I care
 categories:
   - ATLUTD
   - Player
