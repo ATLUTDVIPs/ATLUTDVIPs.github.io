@@ -23,7 +23,7 @@ image:
     title: 2026-02-02-Jamal Thiaré/2025-04-14 - Atlanta United forward Jamal Thiare.jpg
     thumb: 2026-02-02-Jamal Thiaré/2025-04-14 - Atlanta United forward Jamal Thiare.jpg
     homepage: 2026-02-02-Jamal Thiaré/2025-04-14 - Atlanta United forward Jamal Thiare.jpg
-    caption: "caption"
+    caption: "( Photo by ATLUTD )"
 #    caption_url: 
 mediaplayer: false
 
